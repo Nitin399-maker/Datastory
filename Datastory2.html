@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL 2026 Medical Forensic Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --medical-blue: #0ea5e9;
+            --danger-red: #ef4444;
+            --warning-amber: #f59e0b;
+            --success-green: #10b981;
+            --dark-bg: #0f172a;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--dark-bg);
+            color: #f1f5f9;
+        }
+        .font-mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .risk-gradient-low { border-left: 4px solid var(--success-green); }
+        .risk-gradient-med { border-left: 4px solid var(--warning-amber); }
+        .risk-gradient-crit { border-left: 4px solid var(--danger-red); }
+        
+        .timeline-line {
+            width: 2px;
+            background: linear-gradient(to bottom, var(--medical-blue), var(--danger-red));
+        }
+        .cite-tag {
+            font-size: 0.7rem;
+            background: rgba(14, 165, 233, 0.2);
+            color: #7dd3fc;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto">
+        <!-- Header Section -->
+        <header class="mb-12 border-b border-slate-700 pb-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
+            <div>
+                <div class="flex items-center gap-3 text-sky-400 font-mono text-sm mb-2">
+                    <span class="animate-pulse">●</span> FORENSIC MEDICAL AUDIT // DRAFT CLASS 2026
+                </div>
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
+                    NFL 2026 Medical Forensic: <span class="text-sky-500">The Data Story</span>
+                </h1>
+                <p class="mt-4 text-slate-400 max-w-2xl">
+                    Produced for <span class="text-white font-semibold">Anand & The Gramener Team</span> • February 9, 2026
+                </p>
+            </div>
+            <div class="text-right">
+                <div class="glass-card p-4 rounded-xl border-sky-500/30">
+                    <p class="text-xs text-slate-500 uppercase tracking-widest font-mono">Report Status</p>
+                    <p class="text-xl font-bold text-red-500 uppercase">Critical Warnings</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Executive Summary -->
+        <section class="mb-16">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="lg:col-span-2">
+                    <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                        🌟 Executive Summary: The Invisible Pathologies
+                    </h2>
+                    <div class="glass-card p-8 rounded-2xl relative overflow-hidden">
+                        <div class="absolute top-0 right-0 p-4 opacity-10">
+                            <svg width="120" height="120" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+                        </div>
+                        <p class="text-lg leading-relaxed text-slate-300">
+                            The 2026 draft class presents a staggering collection of <span class="text-white font-bold underline decoration-sky-500">'invisible' pathologies</span> where structural defects are masked by high performance. 
+                        </p>
+                        <div class="mt-6 space-y-4">
+                            <div class="flex gap-4 items-start">
+                                <div class="bg-sky-500/20 p-2 rounded-lg mt-1"><svg class="w-5 h-5 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
+                                <div>
+                                    <h4 class="font-bold text-white">Kinetic Chain Compensation</h4>
+                                    <p class="text-slate-400 text-sm">Players are borrowing stability from elsewhere, leading to imminent secondary failures. <span class="cite-tag">cite: Lucas Vance.md, Darius Sterling.md</span></p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 items-start">
+                                <div class="bg-amber-500/20 p-2 rounded-lg mt-1"><svg class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+                                <div>
+                                    <h4 class="font-bold text-white">The 'Iron Man' Fallacy</h4>
+                                    <p class="text-slate-400 text-sm">Durability can sometimes be a mask for life-altering medical stress. <span class="cite-tag">cite: Marcus Jefferson.md</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-4">
+                    <h2 class="text-2xl font-bold mb-6">Health Journey</h2>
+                    <div class="relative pl-8 border-l-2 border-slate-700 space-y-8 py-2">
+                        <div>
+                            <span class="absolute -left-[9px] w-4 h-4 rounded-full bg-sky-500"></span>
+                            <h5 class="font-mono text-sky-400 text-xs font-bold uppercase tracking-tighter">2023 – 2024: Seeds of Decay</h5>
+                            <p class="text-sm text-slate-300 mt-1">Caleb Stone's non-union wrist; Lucas Vance's shoulder repair setting up Tommy John. <span class="cite-tag">Stone.md</span></p>
+                        </div>
+                        <div>
+                            <span class="absolute -left-[9px] w-4 h-4 rounded-full bg-amber-500"></span>
+                            <h5 class="font-mono text-amber-400 text-xs font-bold uppercase tracking-tighter">2025: Compensation Phase</h5>
+                            <p class="text-sm text-slate-300 mt-1">Darius Sterling (Spine/Hamstring) and Xavier Malone (Hip Labrum/Groin). <span class="cite-tag">Sterling.md</span></p>
+                        </div>
+                        <div>
+                            <span class="absolute -left-[9px] w-4 h-4 rounded-full bg-red-500"></span>
+                            <h5 class="font-mono text-red-400 text-xs font-bold uppercase tracking-tighter">2026: Forensic Reveal</h5>
+                            <p class="text-sm text-slate-300 mt-1">Imaging unmasks 'Rim Signs', 'sclerotic margins', and cardiac red flags. <span class="cite-tag">Biggs.md</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deep Dives -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+                <svg class="w-8 h-8 text-sky-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/></svg>
+                What’s Most Important: Deep Dives
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Case 1 -->
+                <div class="glass-card p-6 rounded-2xl border-t-4 border-amber-500 hover:scale-[1.02] transition-transform">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-mono px-2 py-1 bg-amber-500/20 text-amber-400 rounded">BIOMECHANICAL</span>
+                        <span class="text-slate-500 text-xs">Jefferson.md</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">The Iron Man Fallacy</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Marcus Jefferson's perfect attendance is destroying his <span class="text-white font-semibold">solitary kidney</span>. Durability is a bio-medical countdown due to NFL stress and NSAID use.
+                    </p>
+                    <div class="text-xs font-bold text-amber-500 uppercase tracking-widest">Status: Critical Burn-rate</div>
+                </div>
+                <!-- Case 2 -->
+                <div class="glass-card p-6 rounded-2xl border-t-4 border-sky-500 hover:scale-[1.02] transition-transform">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-mono px-2 py-1 bg-sky-500/20 text-sky-400 rounded">KINETIC CHAIN</span>
+                        <span class="text-slate-500 text-xs">Vance.md</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">The Compensation Trap</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Lucas Vance's shoulder is 'sound,' but GIRD (lost rotation) is forcing his <span class="text-white font-semibold">elbow</span> to accept excessive force. Imminent rupture risk.
+                    </p>
+                    <div class="text-xs font-bold text-sky-500 uppercase tracking-widest">Status: Secondary Failure Pending</div>
+                </div>
+                <!-- Case 3 -->
+                <div class="glass-card p-6 rounded-2xl border-t-4 border-red-500 hover:scale-[1.02] transition-transform">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="text-xs font-mono px-2 py-1 bg-red-500/20 text-red-400 rounded">CATASTROPHIC</span>
+                        <span class="text-slate-500 text-xs">Banks.md</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">The Spinal Ceiling</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Elijah Banks is one specific axial hit away from <span class="text-white font-semibold">permanent paralysis</span> due to congenital stenosis of his spinal canal.
+                    </p>
+                    <div class="text-xs font-bold text-red-500 uppercase tracking-widest">Status: High Disqualification Risk</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Risk Matrix Table -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-6">Risk Signals: Clusters & Durability Markers</h2>
+            <div class="overflow-x-auto glass-card rounded-2xl">
+                <table class="w-full text-left">
+                    <thead class="bg-slate-800/50 text-slate-400 font-mono text-xs uppercase">
+                        <tr>
+                            <th class="p-4">Risk Cluster</th>
+                            <th class="p-4">Primary Signal</th>
+                            <th class="p-4">Durability Interpretation</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800">
+                        <tr class="risk-gradient-low">
+                            <td class="p-4 font-bold">Kinetic Chain Failure</td>
+                            <td class="p-4 text-slate-300">Spine/Hip instability causing muscle strains.</td>
+                            <td class="p-4"><span class="text-red-400 font-bold uppercase text-xs">LOW:</span> Soft tissue 'noise' masks deep defects.</td>
+                        </tr>
+                        <tr class="risk-gradient-med">
+                            <td class="p-4 font-bold">Degenerative Decline</td>
+                            <td class="p-4 text-slate-300">Grade 3 Chondromalacia and Osteoarthritis.</td>
+                            <td class="p-4"><span class="text-amber-400 font-bold uppercase text-xs">MEDIUM-SHORT:</span> Unlikely to finish 2nd contract.</td>
+                        </tr>
+                        <tr class="risk-gradient-crit">
+                            <td class="p-4 font-bold">Catastrophic Risk</td>
+                            <td class="p-4 text-slate-300">Cardiac HOCM and Cervical Stenosis.</td>
+                            <td class="p-4"><span class="text-red-600 font-extrabold uppercase text-xs">CRITICAL:</span> Sudden medical disqualification high.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Confidence & Follow-ups -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+            <section>
+                <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">📊 Data Quality</h2>
+                <div class="glass-card p-6 rounded-2xl space-y-4">
+                    <div class="p-4 bg-sky-500/10 rounded-xl border border-sky-500/20">
+                        <div class="text-sky-400 text-xs font-bold font-mono mb-1">HIGH CONFIDENCE (OBJECTIVE)</div>
+                        <p class="text-sm">4-view X-rays, MRIs with contrast, and dynamic ultrasounds used for Stone, Vance, and Malone.</p>
+                    </div>
+                    <div class="p-4 bg-red-500/10 rounded-xl border border-red-500/20">
+                        <div class="text-red-400 text-xs font-bold font-mono mb-1">INCONSISTENCY WARNING</div>
+                        <p class="text-sm">Significant gap between 'Reported Missed Time' and 'Biological Wear' detected for Jefferson and Stone.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">🎙️ Follow-up Questions</h2>
+                <div class="space-y-3 font-mono text-sm">
+                    <div class="glass-card p-4 rounded-xl border-l-2 border-sky-500">
+                        <span class="text-sky-400 font-bold">Xavier Malone:</span> "The imaging says your groin is fine but your hip is failing—how long have you been playing through deep groin pain?"
+                    </div>
+                    <div class="glass-card p-4 rounded-xl border-l-2 border-sky-500">
+                        <span class="text-sky-400 font-bold">Lucas Vance:</span> "Have you noticed your velocity dropping specifically late in games?"
+                    </div>
+                    <div class="glass-card p-4 rounded-xl border-l-2 border-sky-500">
+                        <span class="text-sky-400 font-bold">Caleb Stone:</span> "How does your snapping hand feel after a full game of punching in pass protection?"
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Micro Summaries -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-6">📝 Final Micro-Summaries</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="p-6 bg-slate-800/50 border border-slate-700 rounded-2xl">
+                    <div class="text-green-400 text-xl mb-2">✅ Overall Durability</div>
+                    <p class="text-sm text-slate-400">Deceptive. High attendance is being 'bought' at the cost of long-term health or impending collapse.</p>
+                </div>
+                <div class="p-6 bg-slate-800/50 border border-slate-700 rounded-2xl">
+                    <div class="text-red-500 text-xl mb-2">🔴 Key Risk Cluster</div>
+                    <p class="text-sm text-slate-400">Catastrophic Bio-Markers (Cardiac/Spinal) require immediate board-level review.</p>
+                </div>
+                <div class="p-6 bg-slate-800/50 border border-slate-700 rounded-2xl">
+                    <div class="text-sky-400 text-xl mb-2">📸 Imaging Signals</div>
+                    <p class="text-sm text-slate-400">'Rim Signs' and 'Sclerotic Margins' suggest immediate surgical intervention is needed for viability.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center text-slate-500 text-xs py-8 font-mono">
+            CONFIDENTIAL // FOR NFL PERSONNEL ONLY // © 2026 FORENSIC MEDICAL DATA
+        </footer>
+    </div>
+
+</body>
+</html>
