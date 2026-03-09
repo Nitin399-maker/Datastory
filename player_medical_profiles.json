@@ -1,0 +1,3464 @@
+{
+  "extraction_metadata": {
+    "extraction_date": "2026-02-10",
+    "total_players": 10,
+    "source_folder": "Synthetic_data",
+    "schema_version": "1.0"
+  },
+  "players": [
+    {
+      "player": {
+        "name": "Caleb Stone",
+        "position": "Center (OL)",
+        "team": null,
+        "college": null,
+        "draft_year": null,
+        "dob": "2002-12-03",
+        "height": "6'3\"",
+        "weight": "310 lbs",
+        "handedness": "Right (Dominant/Snapping Hand)",
+        "other_identifiers": [
+          {
+            "type": "Player ID",
+            "value": "66200199"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Caleb Stone.md",
+            "snippet": "Position: Center (OL), ID: 66200199, DOB: 12/03/2002",
+            "note_id": "CS_DOC1_S1"
+          },
+          {
+            "doc_name": "Caleb Stone.md",
+            "snippet": "Height/Weight: 6'3\", 310 lbs.",
+            "note_id": "CS_DOC1_S2"
+          },
+          {
+            "doc_name": "Caleb Stone.md",
+            "snippet": "Right Wrist (Dominant/Snapping Hand)",
+            "note_id": "CS_DOC1_S3"
+          }
+        ]
+      },
+      "injury_events": [
+        {
+          "event_id": "CS_IE001",
+          "body_part": "Right Wrist",
+          "joint": "Scaphoid",
+          "side": "Right",
+          "injury_type": "Scaphoid Non-Union (chronic fracture)",
+          "date": "2023",
+          "season": "2023",
+          "severity": "Severe (Established Non-Union with SNAC precursor)",
+          "mechanism": "Falling on outstretched hand",
+          "treatment": [
+            "Initially treated as sprain",
+            "Hard cast club (2024)",
+            "Heavy tape (2025)",
+            "Surgery recommended (bone graft)"
+          ],
+          "recovery_time": "4-6 months (if surgery performed)",
+          "return_to_play": "Played through injury with tape/cast",
+          "missed_practice_time": null,
+          "missed_games": "2 games in 2023",
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": "Chronic ongoing issue since 2023"
+          },
+          "imaging_refs": ["CS_IM001"],
+          "exam_findings_refs": ["CS_EX001"],
+          "evidence": [
+            {
+              "doc_name": "Caleb Stone.md",
+              "snippet": "Injured wrist falling on outstretched hand in 2023. Treated as a sprain. Pain persists in the 'thumb side' of the wrist",
+              "note_id": "CS_DOC1_S4"
+            },
+            {
+              "doc_name": "Caleb Stone.md",
+              "snippet": "2023: Missed 2 games ('Wrist Sprain'). 2024/2025: No games missed, but played with a hard cast club (2024) and heavy tape (2025)",
+              "note_id": "CS_DOC1_S5"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "event_id": "CS_IE002",
+          "body_part": "Knees",
+          "joint": "Patellar tendon",
+          "side": "Bilateral",
+          "injury_type": "Patellar tendinitis",
+          "date": null,
+          "season": null,
+          "severity": "Mild",
+          "mechanism": null,
+          "treatment": [],
+          "recovery_time": null,
+          "return_to_play": null,
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": null,
+            "count_estimate": null,
+            "same_area_prior": null
+          },
+          "imaging_refs": [],
+          "exam_findings_refs": [],
+          "evidence": [
+            {
+              "doc_name": "Caleb Stone.md",
+              "snippet": "Knees: Bilateral mild patellar tendinitis. No tears.",
+              "note_id": "CS_DOC1_S6"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "surgeries_procedures": [
+        {
+          "proc_id": "CS_SP001",
+          "date": null,
+          "procedure_name": "Scaphoid bone graft surgery (recommended, not yet performed)",
+          "body_part": "Right Wrist",
+          "side": "Right",
+          "reason": "Scaphoid Non-Union with SNAC wrist precursor",
+          "hardware_present": "Unknown (surgery not yet performed)",
+          "outcome": "Pending - surgery recommended",
+          "complications": null,
+          "evidence": [
+            {
+              "doc_name": "Caleb Stone.md",
+              "snippet": "He cannot effectively punch or snap without eventual surgery (bone graft), which implies a 4-6 month recovery",
+              "note_id": "CS_DOC1_S7"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "imaging_findings": [
+        {
+          "img_id": "CS_IM001",
+          "date": "2026-02-26",
+          "modality": "X-Ray",
+          "body_part": "Right Wrist",
+          "side": "Right",
+          "key_positives": [
+            "Persistent radiolucent line through scaphoid waist",
+            "Sclerotic fracture margins",
+            "Small cystic changes at fracture site",
+            "Minimal DISI deformity (Lunate tilting)",
+            "Mild radioscaphoid joint space narrowing"
+          ],
+          "key_negatives": [],
+          "red_flags": [
+            "Sclerotic margins suggest low likelihood of spontaneous healing",
+            "Early signs of SNAC pattern arthritis",
+            "Cystic changes indicating chronicity"
+          ],
+          "impression": "Established Scaphoid Waist Non-Union with early SNAC arthritis",
+          "evidence": [
+            {
+              "doc_name": "Caleb Stone.md",
+              "snippet": "Persistent radiolucent line through the waist (middle third) of the scaphoid bone. The fracture margins appear sclerotic (white/hardened), indicating chronicity. Small cystic changes noted at the fracture site",
+              "note_id": "CS_DOC1_S8"
+            },
+            {
+              "doc_name": "Caleb Stone.md",
+              "snippet": "Early signs of Scaphoid Non-Union Advanced Collapse (SNAC) pattern arthritis",
+              "note_id": "CS_DOC1_S9"
+            }
+          ]
+        }
+      ],
+      "missed_time_summary": {
+        "practice_missed": null,
+        "games_missed": "2 games in 2023",
+        "ir_pup_nfi": null,
+        "no_missed_time_claims": [
+          {
+            "claim": "2024/2025: No games missed",
+            "flag_conflict": true,
+            "evidence": [
+              {
+                "doc_name": "Caleb Stone.md",
+                "snippet": "2024/2025: No games missed, but played with a hard cast club (2024) and heavy tape (2025)",
+                "note_id": "CS_DOC1_S10"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Caleb Stone.md",
+            "snippet": "2023: Missed 2 games ('Wrist Sprain')",
+            "note_id": "CS_DOC1_S11"
+          }
+        ]
+      },
+      "concussions_neuro": {
+        "concussion_count": 0,
+        "events": [],
+        "neuro_assessments": [],
+        "evidence": []
+      },
+      "cardiovascular": {
+        "ekg": null,
+        "echo_ef": null,
+        "stress_test": null,
+        "bp_hr": "BP 130/80",
+        "restrictions": null,
+        "evidence": [
+          {
+            "doc_name": "Caleb Stone.md",
+            "snippet": "Vitals: BP 130/80",
+            "note_id": "CS_DOC1_S12"
+          }
+        ]
+      },
+      "current_capacity": {
+        "rom": [
+          {
+            "joint": "Right Wrist",
+            "measurement": "Extension limited to 45 degrees (Left is 70)",
+            "deficit": "25 degrees extension deficit",
+            "evidence": [
+              {
+                "doc_name": "Caleb Stone.md",
+                "snippet": "ROM: Extension limited to 45 degrees (Left is 70). Flexion is 50 degrees",
+                "note_id": "CS_DOC1_S13"
+              }
+            ]
+          }
+        ],
+        "ligament_stability": [
+          {
+            "test": "Watson's Scaphoid Shift test",
+            "result": "Positive - painful clunk",
+            "evidence": [
+              {
+                "doc_name": "Caleb Stone.md",
+                "snippet": "Watson's Scaphoid Shift test causes painful clunk",
+                "note_id": "CS_DOC1_S14"
+              }
+            ]
+          }
+        ],
+        "strength_tests": [
+          {
+            "test": "Grip strength",
+            "result": "Right 40kg vs Left 55kg (27% deficit)",
+            "evidence": [
+              {
+                "doc_name": "Caleb Stone.md",
+                "snippet": "Strength: Grip strength 40kg (Right) vs 55kg (Left)",
+                "note_id": "CS_DOC1_S15"
+              }
+            ]
+          }
+        ],
+        "pain_indicators": [
+          {
+            "location": "Anatomic Snuffbox and Scaphoid Tubercle",
+            "severity": "Tenderness on palpation",
+            "evidence": [
+              {
+                "doc_name": "Caleb Stone.md",
+                "snippet": "Palpation: Tenderness in the Anatomic Snuffbox and Scaphoid Tubercle",
+                "note_id": "CS_DOC1_S16"
+              }
+            ]
+          }
+        ],
+        "evidence": []
+      },
+      "durability_markers": [
+        {
+          "marker": "Chronic scaphoid non-union with degenerative changes",
+          "supporting_detail": "Sclerotic margins, cystic changes, early SNAC arthritis pattern",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Caleb Stone.md",
+              "snippet": "The fracture margins appear sclerotic (white/hardened), indicating chronicity. Small cystic changes noted. Early signs of SNAC pattern arthritis",
+              "note_id": "CS_DOC1_S17"
+            }
+          ]
+        },
+        {
+          "marker": "Playing through injury with compensatory devices",
+          "supporting_detail": "Hard cast club (2024), heavy tape (2025) - indicates inability to heal naturally",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Caleb Stone.md",
+              "snippet": "played with a hard cast club (2024) and heavy tape (2025)",
+              "note_id": "CS_DOC1_S18"
+            }
+          ]
+        }
+      ],
+      "clearance_status": {
+        "status": "Conditional - requires surgery",
+        "restrictions": [
+          "Cannot effectively punch or snap without surgery"
+        ],
+        "follow_up": "Surgical consultation for scaphoid bone graft",
+        "evidence": [
+          {
+            "doc_name": "Caleb Stone.md",
+            "snippet": "He cannot effectively punch or snap without eventual surgery (bone graft)",
+            "note_id": "CS_DOC1_S19"
+          }
+        ]
+      },
+      "medical_conditions": [
+        {
+          "condition": "Type 1 Diabetes",
+          "diagnosis_date": "Age 12",
+          "management": "Insulin Pump, HbA1c 6.8% (Well controlled)",
+          "evidence": [
+            {
+              "doc_name": "Caleb Stone.md",
+              "snippet": "Type 1 Diabetic (Diagnosed age 12). Uses Insulin Pump. HbA1c 6.8% (Well controlled)",
+              "note_id": "CS_DOC1_S20"
+            }
+          ]
+        }
+      ],
+      "tier_summary": {
+        "tier1_core_decision_factors": [
+          "Scaphoid non-union requiring surgery (4-6 month recovery)",
+          "27% grip strength deficit in dominant hand",
+          "Type 1 Diabetes (well controlled)",
+          "Early degenerative arthritis (SNAC pattern)"
+        ],
+        "tier2_predictive_analytics": [
+          "Position-specific vulnerability: Center requires strong snapping hand",
+          "Chronic injury pattern: Playing through injury 2+ years",
+          "Imaging chronicity markers: Sclerotic margins, cystic changes"
+        ],
+        "tier3_supporting_data": [
+          "Bilateral mild patellar tendinitis",
+          "Non-smoker",
+          "BP 130/80"
+        ]
+      }
+    },
+    {
+      "player": {
+        "name": "Darius Sterling",
+        "position": "Wide Receiver",
+        "team": null,
+        "college": null,
+        "draft_year": null,
+        "dob": "2004-08-12",
+        "height": "6'0\"",
+        "weight": "195 lbs",
+        "handedness": null,
+        "other_identifiers": [
+          {
+            "type": "Player ID",
+            "value": "88421009"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Darius Sterling.md",
+            "snippet": "Position: Wide Receiver, ID: 88421009, DOB: 08/12/2004",
+            "note_id": "DS_DOC1_S1"
+          },
+          {
+            "doc_name": "Darius Sterling.md",
+            "snippet": "Height/Weight: 6'0\", 195 lbs.",
+            "note_id": "DS_DOC1_S2"
+          }
+        ]
+      },
+      "injury_events": [
+        {
+          "event_id": "DS_IE001",
+          "body_part": "Right Hamstring",
+          "joint": null,
+          "side": "Right",
+          "injury_type": "Recurrent hamstring strain (Grade 1 then Grade 2)",
+          "date": "October 2024 (initial), September 2025 (recurrence)",
+          "season": "2024, 2025",
+          "severity": "Grade 1 (2024), Grade 2 (2025)",
+          "mechanism": "Non-contact, top-speed deceleration",
+          "treatment": [],
+          "recovery_time": null,
+          "return_to_play": null,
+          "missed_practice_time": null,
+          "missed_games": "2 games (2024), 3 games (2025)",
+          "recurrence": {
+            "is_recurrence": true,
+            "count_estimate": 2,
+            "same_area_prior": "Right hamstring - same location"
+          },
+          "imaging_refs": ["DS_IM001"],
+          "exam_findings_refs": ["DS_EX001"],
+          "evidence": [
+            {
+              "doc_name": "Darius Sterling.md",
+              "snippet": "Initial Grade 1 strain Oct 2024. Recurrence Grade 2 strain Sept 2025. Both non-contact, occurred during top-speed deceleration",
+              "note_id": "DS_DOC1_S3"
+            },
+            {
+              "doc_name": "Darius Sterling.md",
+              "snippet": "2024 Season: Missed 2 games (Right Hamstring). 2025 Season: Missed 3 games (Right Hamstring)",
+              "note_id": "DS_DOC1_S4"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "event_id": "DS_IE002",
+          "body_part": "Lumbar Spine",
+          "joint": "L5-S1",
+          "side": "Bilateral",
+          "injury_type": "Chronic spondylolysis (pars defects) with Grade 1 spondylolisthesis",
+          "date": null,
+          "season": "Chronic/old injury",
+          "severity": "Stable chronic condition",
+          "mechanism": null,
+          "treatment": [],
+          "recovery_time": null,
+          "return_to_play": null,
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": "Chronic condition"
+          },
+          "imaging_refs": ["DS_IM002"],
+          "exam_findings_refs": ["DS_EX002"],
+          "evidence": [
+            {
+              "doc_name": "Darius Sterling.md",
+              "snippet": "Episodes of 'tight lower back' after games. No radicular pain (sciatica) reported",
+              "note_id": "DS_DOC1_S5"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "surgeries_procedures": [],
+      "imaging_findings": [
+        {
+          "img_id": "DS_IM001",
+          "date": "2026-02-26",
+          "modality": "MRI",
+          "body_part": "Right Thigh (Hamstring)",
+          "side": "Right",
+          "key_positives": [
+            "Fusiform thickening of proximal biceps femoris tendon (chronic scarring)",
+            "Trace residual perifascial edema",
+            "Mild tethering of sciatic nerve adjacent to scar tissue"
+          ],
+          "key_negatives": [
+            "No acute fluid collection"
+          ],
+          "red_flags": [
+            "Chronic scarring at musculotendinous junction",
+            "Sciatic nerve tethering - may contribute to recurrence"
+          ],
+          "impression": "Chronic hamstring scarring with sciatic nerve tethering",
+          "evidence": [
+            {
+              "doc_name": "Darius Sterling.md",
+              "snippet": "Fusiform thickening of the proximal biceps femoris tendon consistent with chronic scarring. Mild tethering of the sciatic nerve adjacent to the scar tissue at the ischial tuberosity",
+              "note_id": "DS_DOC1_S6"
+            }
+          ]
+        },
+        {
+          "img_id": "DS_IM002",
+          "date": "2026-02-26",
+          "modality": "MRI",
+          "body_part": "Lumbar Spine",
+          "side": "Bilateral",
+          "key_positives": [
+            "Bilateral pars interarticularis defects at L5 (sclerotic and healed)",
+            "Grade 1 anterolisthesis of L5 on S1",
+            "Mild disc desiccation at L5-S1"
+          ],
+          "key_negatives": [
+            "No active marrow edema",
+            "No nerve root impingement",
+            "Stable in flexion/extension views"
+          ],
+          "red_flags": [
+            "Chronic spondylolysis with spondylolisthesis",
+            "Disc desiccation (early degeneration)"
+          ],
+          "impression": "Chronic healed bilateral L5 pars defects with stable Grade 1 spondylolisthesis",
+          "evidence": [
+            {
+              "doc_name": "Darius Sterling.md",
+              "snippet": "Bilateral pars interarticularis defects at L5. These appear sclerotic and healed (chronic spondylolysis). Grade 1 anterolisthesis (slippage) of L5 on S1. Stable in flexion/extension views",
+              "note_id": "DS_DOC1_S7"
+            }
+          ]
+        }
+      ],
+      "missed_time_summary": {
+        "practice_missed": null,
+        "games_missed": "5 games total (2 in 2024, 3 in 2025)",
+        "ir_pup_nfi": null,
+        "no_missed_time_claims": [],
+        "evidence": [
+          {
+            "doc_name": "Darius Sterling.md",
+            "snippet": "2024 Season: Missed 2 games (Right Hamstring). 2025 Season: Missed 3 games (Right Hamstring)",
+            "note_id": "DS_DOC1_S8"
+          }
+        ]
+      },
+      "concussions_neuro": {
+        "concussion_count": 1,
+        "events": [
+          {
+            "date": "2023 (Sophomore year)",
+            "severity": "Cleared after 6 days",
+            "symptom_duration": "6 days",
+            "time_to_clear": "6 days",
+            "recurrence": false,
+            "evidence": [
+              {
+                "doc_name": "Darius Sterling.md",
+                "snippet": "One concussion (Sophomore year, 2023). Cleared after 6 days. No recurrence",
+                "note_id": "DS_DOC1_S9"
+              }
+            ]
+          }
+        ],
+        "neuro_assessments": [],
+        "evidence": []
+      },
+      "cardiovascular": {
+        "ekg": "Sinus Bradycardia (athletic heart). Normal voltage",
+        "echo_ef": null,
+        "stress_test": null,
+        "bp_hr": "BP 118/76, HR 58 (Resting)",
+        "restrictions": null,
+        "evidence": [
+          {
+            "doc_name": "Darius Sterling.md",
+            "snippet": "Vitals: BP 118/76, HR 58 (Resting). EKG: Sinus Bradycardia (athletic heart). Normal voltage",
+            "note_id": "DS_DOC1_S10"
+          }
+        ]
+      },
+      "current_capacity": {
+        "rom": [
+          {
+            "joint": "Hip (Right)",
+            "measurement": "Popliteal angle 15 degrees (tight)",
+            "deficit": "Hamstring tightness",
+            "evidence": [
+              {
+                "doc_name": "Darius Sterling.md",
+                "snippet": "Popliteal angle 15 degrees (tight)",
+                "note_id": "DS_DOC1_S11"
+              }
+            ]
+          }
+        ],
+        "ligament_stability": [
+          {
+            "test": "Ankle stability",
+            "result": "Stable bilaterally",
+            "evidence": [
+              {
+                "doc_name": "Darius Sterling.md",
+                "snippet": "Ankles: Bilateral prophylactic taping. No sprains. Exam: Stable",
+                "note_id": "DS_DOC1_S12"
+              }
+            ]
+          }
+        ],
+        "strength_tests": [
+          {
+            "test": "Hamstring strength",
+            "result": "5/5 but pain at extreme hip flexion",
+            "evidence": [
+              {
+                "doc_name": "Darius Sterling.md",
+                "snippet": "No current tenderness. Strength 5/5 but pain reported at extreme hip flexion",
+                "note_id": "DS_DOC1_S13"
+              }
+            ]
+          }
+        ],
+        "pain_indicators": [
+          {
+            "location": "Lumbar spine L5 level",
+            "severity": "Mild discomfort on extension",
+            "evidence": [
+              {
+                "doc_name": "Darius Sterling.md",
+                "snippet": "Extension causes mild discomfort at L5 level. Flexion is painless",
+                "note_id": "DS_DOC1_S14"
+              }
+            ]
+          },
+          {
+            "location": "Right hamstring",
+            "severity": "Positive Slump test (neural tension)",
+            "evidence": [
+              {
+                "doc_name": "Darius Sterling.md",
+                "snippet": "Slump test positive on Right (suggesting neural tension)",
+                "note_id": "DS_DOC1_S15"
+              }
+            ]
+          }
+        ],
+        "evidence": []
+      },
+      "durability_markers": [
+        {
+          "marker": "Recurrent hamstring strains (same location)",
+          "supporting_detail": "Grade 1 (2024) progressed to Grade 2 (2025), chronic scarring with sciatic nerve tethering",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Darius Sterling.md",
+              "snippet": "Initial Grade 1 strain Oct 2024. Recurrence Grade 2 strain Sept 2025. Fusiform thickening consistent with chronic scarring. Mild tethering of the sciatic nerve",
+              "note_id": "DS_DOC1_S16"
+            }
+          ]
+        },
+        {
+          "marker": "Kinetic chain disruption - lumbar instability contributing to hamstring issues",
+          "supporting_detail": "L5 pars defects with spondylolisthesis, anterior pelvic tilt",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Darius Sterling.md",
+              "snippet": "Recurrent hamstring strains are likely secondary to lumbar instability (L5 pars defect) and anterior pelvic tilt",
+              "note_id": "DS_DOC1_S17"
+            }
+          ]
+        }
+      ],
+      "clearance_status": {
+        "status": "Cleared but high recurrence risk",
+        "restrictions": [
+          "Core stability prioritization recommended over static stretching"
+        ],
+        "follow_up": "Monitor hamstring and address lumbar stability",
+        "evidence": [
+          {
+            "doc_name": "Darius Sterling.md",
+            "snippet": "High short-term recurrence risk if core stability is not prioritized over static stretching",
+            "note_id": "DS_DOC1_S18"
+          }
+        ]
+      },
+      "medical_conditions": [
+        {
+          "condition": "Childhood asthma (resolved)",
+          "diagnosis_date": "Childhood",
+          "management": "No inhaler use since age 14",
+          "evidence": [
+            {
+              "doc_name": "Darius Sterling.md",
+              "snippet": "Childhood asthma (resolved, no inhaler use since age 14)",
+              "note_id": "DS_DOC1_S19"
+            }
+          ]
+        }
+      ],
+      "tier_summary": {
+        "tier1_core_decision_factors": [
+          "Recurrent hamstring strains (2 episodes, escalating severity)",
+          "Chronic lumbar spondylolysis with Grade 1 spondylolisthesis",
+          "Sciatic nerve tethering at hamstring scar site",
+          "One concussion (2023, cleared in 6 days)"
+        ],
+        "tier2_predictive_analytics": [
+          "Position-specific vulnerability: WR requires explosive deceleration",
+          "Injury pattern: Non-contact hamstring injuries during deceleration",
+          "Imaging chronicity: Chronic scarring, nerve tethering, disc desiccation",
+          "Kinetic chain disruption: Lumbar instability driving distal injury"
+        ],
+        "tier3_supporting_data": [
+          "Sickle Cell Trait: Negative",
+          "Athletic heart (sinus bradycardia)",
+          "Anterior pelvic tilt observed",
+          "Non-smoker, rare alcohol use"
+        ]
+      }
+    },
+    {
+      "player": {
+        "name": "Deon Fry",
+        "position": "Running Back",
+        "team": null,
+        "college": null,
+        "draft_year": null,
+        "dob": "2004-04-18",
+        "height": "5'11\"",
+        "weight": "215 lbs",
+        "handedness": null,
+        "other_identifiers": [
+          {
+            "type": "Player ID",
+            "value": "22005581"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Deon Fry.md",
+            "snippet": "Position: Running Back, ID: 22005581, DOB: 04/18/2004",
+            "note_id": "DF_DOC1_S1"
+          },
+          {
+            "doc_name": "Deon Fry.md",
+            "snippet": "Height/Weight: 5'11\", 215 lbs.",
+            "note_id": "DF_DOC1_S2"
+          }
+        ]
+      },
+      "injury_events": [
+        {
+          "event_id": "DF_IE001",
+          "body_part": "Right Ankle",
+          "joint": "Talocrural joint",
+          "side": "Right",
+          "injury_type": "Eversion sprain with unstable osteochondral defect",
+          "date": "2024",
+          "season": "2024",
+          "severity": "Severe (unstable OCD with positive rim sign)",
+          "mechanism": "Eversion sprain",
+          "treatment": [],
+          "recovery_time": null,
+          "return_to_play": "Playing with chronic symptoms",
+          "missed_practice_time": "Limited in practice weeks 8-12 (2025)",
+          "missed_games": "3 games (2024)",
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": "Chronic ongoing issue since 2024"
+          },
+          "imaging_refs": ["DF_IM001"],
+          "exam_findings_refs": ["DF_EX001"],
+          "evidence": [
+            {
+              "doc_name": "Deon Fry.md",
+              "snippet": "Sustained eversion sprain in 2024. Since then, reports intermittent 'catching' or 'clicking' deep inside the joint. Says the ankle 'locks up' occasionally in the morning",
+              "note_id": "DF_DOC1_S3"
+            },
+            {
+              "doc_name": "Deon Fry.md",
+              "snippet": "2024: Missed 3 games ('High Ankle Sprain'). 2025: Limited in practice weeks 8-12 due to 'Ankle soreness'",
+              "note_id": "DF_DOC1_S4"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "surgeries_procedures": [
+        {
+          "proc_id": "DF_SP001",
+          "date": "2020",
+          "procedure_name": "ACL Repair",
+          "body_part": "Left Knee",
+          "side": "Left",
+          "reason": "ACL tear (High School)",
+          "hardware_present": "Yes (graft)",
+          "outcome": "Graft is solid. No issues",
+          "complications": null,
+          "evidence": [
+            {
+              "doc_name": "Deon Fry.md",
+              "snippet": "Left Knee: ACL Repair (2020 - High School). Graft is solid. No issues",
+              "note_id": "DF_DOC1_S5"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "proc_id": "DF_SP002",
+          "date": null,
+          "procedure_name": "Ankle surgery (fixation or cartilage transfer) - recommended",
+          "body_part": "Right Ankle",
+          "side": "Right",
+          "reason": "Unstable osteochondral defect - prevent joint locking",
+          "hardware_present": "Unknown (surgery not yet performed)",
+          "outcome": "Pending",
+          "complications": null,
+          "evidence": [
+            {
+              "doc_name": "Deon Fry.md",
+              "snippet": "Requires surgery (fixation or cartilage transfer) to prevent joint locking",
+              "note_id": "DF_DOC1_S6"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "imaging_findings": [
+        {
+          "img_id": "DF_IM001",
+          "date": "2026-02-26",
+          "modality": "MRI",
+          "body_part": "Right Ankle",
+          "side": "Right",
+          "key_positives": [
+            "Osteochondral lesion on medial talar dome (size obscured in document)",
+            "High T2 fluid signal rimming fragment (Rim Sign - instability)",
+            "Breach of cartilage surface",
+            "Significant bone marrow edema in talus",
+            "ATFL and CFL thickened/scarred but intact",
+            "Joint effusion and synovitis"
+          ],
+          "key_negatives": [
+            "AITFL (Syndesmosis) intact"
+          ],
+          "red_flags": [
+            "Positive Rim Sign indicating unstable fragment",
+            "Fluid undermining fragment (high risk of detachment)",
+            "Bone marrow edema",
+            "Cartilage surface breach"
+          ],
+          "impression": "Unstable Osteochondral Defect (OCD) of Medial Talar Dome with positive Rim Sign",
+          "evidence": [
+            {
+              "doc_name": "Deon Fry.md",
+              "snippet": "Osteochondral lesion on the medial talar dome. High T2 fluid signal is seen rimming the deep interface between the fragment and the parent bone (The 'Rim Sign'). There is a breach of the cartilage surface. Significant edema in the talus",
+              "note_id": "DF_DOC1_S7"
+            }
+          ]
+        }
+      ],
+      "missed_time_summary": {
+        "practice_missed": "Weeks 8-12 of 2025 season (limited)",
+        "games_missed": "3 games in 2024",
+        "ir_pup_nfi": null,
+        "no_missed_time_claims": [],
+        "evidence": [
+          {
+            "doc_name": "Deon Fry.md",
+            "snippet": "2024: Missed 3 games ('High Ankle Sprain'). 2025: Limited in practice weeks 8-12 due to 'Ankle soreness'",
+            "note_id": "DF_DOC1_S8"
+          }
+        ]
+      },
+      "concussions_neuro": {
+        "concussion_count": 0,
+        "events": [],
+        "neuro_assessments": [],
+        "evidence": []
+      },
+      "cardiovascular": {
+        "ekg": null,
+        "echo_ef": null,
+        "stress_test": null,
+        "bp_hr": null,
+        "restrictions": null,
+        "evidence": []
+      },
+      "current_capacity": {
+        "rom": [
+          {
+            "joint": "Right Ankle",
+            "measurement": "Dorsiflexion limited by 5 degrees (hard end point)",
+            "deficit": "5 degrees dorsiflexion deficit",
+            "evidence": [
+              {
+                "doc_name": "Deon Fry.md",
+                "snippet": "ROM: Dorsiflexion limited by 5 degrees (hard end point)",
+                "note_id": "DF_DOC1_S9"
+              }
+            ]
+          }
+        ],
+        "ligament_stability": [
+          {
+            "test": "Anterior drawer and Talar tilt",
+            "result": "Negative (Ligaments are stable)",
+            "evidence": [
+              {
+                "doc_name": "Deon Fry.md",
+                "snippet": "Stability: Anterior drawer and Talar tilt negative (Ligaments are stable)",
+                "note_id": "DF_DOC1_S10"
+              }
+            ]
+          }
+        ],
+        "strength_tests": [],
+        "pain_indicators": [
+          {
+            "location": "Medial gutter (inside corner) of right ankle",
+            "severity": "Palpable pain",
+            "evidence": [
+              {
+                "doc_name": "Deon Fry.md",
+                "snippet": "Tenderness: Palpable pain at the medial gutter (inside corner)",
+                "note_id": "DF_DOC1_S11"
+              }
+            ]
+          },
+          {
+            "location": "Right ankle joint",
+            "severity": "Moderate effusion, intermittent catching/clicking, occasional locking",
+            "evidence": [
+              {
+                "doc_name": "Deon Fry.md",
+                "snippet": "Moderate joint effusion present. Reports intermittent 'catching' or 'clicking' deep inside the joint. Says the ankle 'locks up' occasionally",
+                "note_id": "DF_DOC1_S12"
+              }
+            ]
+          }
+        ],
+        "evidence": []
+      },
+      "durability_markers": [
+        {
+          "marker": "Unstable osteochondral defect with imminent detachment risk",
+          "supporting_detail": "Positive Rim Sign, fluid undermining fragment, cartilage breach",
+          "severity": "Critical",
+          "evidence": [
+            {
+              "doc_name": "Deon Fry.md",
+              "snippet": "The 'fluid signal behind the fragment' is the critical finding---it means the piece of cartilage/bone is loose and could detach at any moment, causing the joint to lock up",
+              "note_id": "DF_DOC1_S13"
+            }
+          ]
+        },
+        {
+          "marker": "Chronic ankle symptoms with mechanical locking",
+          "supporting_detail": "Intermittent catching, clicking, morning lock-up episodes",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Deon Fry.md",
+              "snippet": "Reports intermittent 'catching' or 'clicking' deep inside the joint. Says the ankle 'locks up' occasionally in the morning",
+              "note_id": "DF_DOC1_S14"
+            }
+          ]
+        }
+      ],
+      "clearance_status": {
+        "status": "High surgical risk - requires intervention",
+        "restrictions": [
+          "High risk for joint locking during play"
+        ],
+        "follow_up": "Surgical consultation for OCD fixation or cartilage transfer",
+        "evidence": [
+          {
+            "doc_name": "Deon Fry.md",
+            "snippet": "Requires surgery (fixation or cartilage transfer) to prevent joint locking",
+            "note_id": "DF_DOC1_S15"
+          }
+        ]
+      },
+      "medical_conditions": [
+        {
+          "condition": "Sickle Cell Trait",
+          "diagnosis_date": null,
+          "management": "Negative",
+          "evidence": [
+            {
+              "doc_name": "Deon Fry.md",
+              "snippet": "Sickle Cell: Negative",
+              "note_id": "DF_DOC1_S16"
+            }
+          ]
+        }
+      ],
+      "tier_summary": {
+        "tier1_core_decision_factors": [
+          "Unstable osteochondral defect requiring surgery",
+          "Positive Rim Sign (fluid undermining fragment)",
+          "Mechanical locking episodes",
+          "Prior ACL repair (2020) - stable"
+        ],
+        "tier2_predictive_analytics": [
+          "Position-specific vulnerability: RB requires cutting/pivoting on ankle",
+          "Imaging chronicity: Bone marrow edema, cartilage breach, synovitis",
+          "Injury pattern: Chronic symptoms since 2024 injury"
+        ],
+        "tier3_supporting_data": [
+          "Sickle Cell Trait: Negative",
+          "No chronic illness",
+          "Right ankle swelling visible on exam"
+        ]
+      }
+    },
+    {
+      "player": {
+        "name": "Elijah Banks",
+        "position": "Linebacker",
+        "team": null,
+        "college": null,
+        "draft_year": null,
+        "dob": "2003-06-30",
+        "height": "6'2\"",
+        "weight": "240 lbs",
+        "handedness": null,
+        "other_identifiers": [
+          {
+            "type": "Player ID",
+            "value": "55001928"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Elijah Banks.md",
+            "snippet": "Position: Linebacker, ID: 55001928, DOB: 06/30/2003",
+            "note_id": "EB_DOC1_S1"
+          },
+          {
+            "doc_name": "Elijah Banks.md",
+            "snippet": "Height/Weight: 6'2\", 240 lbs.",
+            "note_id": "EB_DOC1_S2"
+          }
+        ]
+      },
+      "injury_events": [
+        {
+          "event_id": "EB_IE001",
+          "body_part": "Cervical Spine",
+          "joint": "C3-C6 spinal canal",
+          "side": "Bilateral",
+          "injury_type": "Recurrent stingers (cervical nerve root compression)",
+          "date": "Recurrent (~3 times per season)",
+          "season": "Ongoing",
+          "severity": "Moderate (symptoms resolve in minutes but recurrent)",
+          "mechanism": "Axial load/contact",
+          "treatment": [],
+          "recovery_time": "30-60 seconds per episode",
+          "return_to_play": "Returns same game typically",
+          "missed_practice_time": null,
+          "missed_games": "Left game early vs Alabama (2024), returned next week",
+          "recurrence": {
+            "is_recurrence": true,
+            "count_estimate": "~3 per season",
+            "same_area_prior": "Recurrent cervical stingers"
+          },
+          "imaging_refs": ["EB_IM001"],
+          "exam_findings_refs": ["EB_EX001"],
+          "evidence": [
+            {
+              "doc_name": "Elijah Banks.md",
+              "snippet": "Reports 'burners' (shooting pain down arm) approx 3 times per season. usually resolve in minutes",
+              "note_id": "EB_DOC1_S3"
+            },
+            {
+              "doc_name": "Elijah Banks.md",
+              "snippet": "Recurrent stingers affecting right arm. Sensation of 'dead arm' lasts 30-60 seconds",
+              "note_id": "EB_DOC1_S4"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "event_id": "EB_IE002",
+          "body_part": "Right Shoulder",
+          "joint": "AC Joint",
+          "side": "Right",
+          "injury_type": "AC Joint sprain",
+          "date": "2023",
+          "season": "2023",
+          "severity": "Mild (healed)",
+          "mechanism": null,
+          "treatment": [],
+          "recovery_time": null,
+          "return_to_play": "Healed",
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": [],
+          "exam_findings_refs": [],
+          "evidence": [
+            {
+              "doc_name": "Elijah Banks.md",
+              "snippet": "Right Shoulder: AC Joint sprain 2023. Exam: Mild prominence of AC joint. Nontender",
+              "note_id": "EB_DOC1_S5"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "surgeries_procedures": [],
+      "imaging_findings": [
+        {
+          "img_id": "EB_IM001",
+          "date": "2026-02-26",
+          "modality": "MRI",
+          "body_part": "Cervical Spine",
+          "side": "Bilateral",
+          "key_positives": [
+            "Congenitally narrow spinal canal (10-11mm from C3-C6, normal >14mm)",
+            "Spinal cord slightly flattened",
+            "CSF signal effaced (diminished buffer)",
+            "Mild disc bulges at C4-5 and C5-6 contacting ventral cord",
+            "Mild narrowing of right C5-6 neural foramen"
+          ],
+          "key_negatives": [
+            "No myelomalacia (no cord signal change/damage)",
+            "Discs not compressing cord"
+          ],
+          "red_flags": [
+            "Congenital cervical stenosis (Torg Ratio <0.8)",
+            "Effacement of CSF column (no protective buffer)",
+            "Cord flattening",
+            "Risk of transient quadriparesis with axial load"
+          ],
+          "impression": "Congenital Cervical Stenosis with Torg Ratio <0.8, mild foraminal stenosis correlating with stinger symptoms",
+          "evidence": [
+            {
+              "doc_name": "Elijah Banks.md",
+              "snippet": "Congenitally narrow spinal canal. Mid-sagittal diameter measures 10-11 mm from C3 to C6 (Normal >14mm). The spinal cord is slightly flattened but there is no myelomalacia. The CSF signal around the cord is effaced",
+              "note_id": "EB_DOC1_S6"
+            },
+            {
+              "doc_name": "Elijah Banks.md",
+              "snippet": "Congenital Cervical Stenosis. Torg Ratio estimated <0.8",
+              "note_id": "EB_DOC1_S7"
+            }
+          ]
+        }
+      ],
+      "missed_time_summary": {
+        "practice_missed": null,
+        "games_missed": "Left game early vs Alabama (2024), returned next week",
+        "ir_pup_nfi": null,
+        "no_missed_time_claims": [],
+        "evidence": [
+          {
+            "doc_name": "Elijah Banks.md",
+            "snippet": "2024: Left game early vs. Alabama (Neck/Stinger). Returned next week",
+            "note_id": "EB_DOC1_S8"
+          }
+        ]
+      },
+      "concussions_neuro": {
+        "concussion_count": 2,
+        "events": [
+          {
+            "date": "2022",
+            "severity": "Unknown",
+            "symptom_duration": null,
+            "time_to_clear": null,
+            "recurrence": true,
+            "evidence": [
+              {
+                "doc_name": "Elijah Banks.md",
+                "snippet": "2 documented concussions (2022, 2024)",
+                "note_id": "EB_DOC1_S9"
+              }
+            ]
+          },
+          {
+            "date": "2024",
+            "severity": "Required 14 days protocol",
+            "symptom_duration": "14 days",
+            "time_to_clear": "14 days",
+            "recurrence": true,
+            "evidence": [
+              {
+                "doc_name": "Elijah Banks.md",
+                "snippet": "2 documented concussions (2022, 2024). Last one required 14 days protocol",
+                "note_id": "EB_DOC1_S10"
+              }
+            ]
+          }
+        ],
+        "neuro_assessments": [
+          {
+            "test": "Spurling's Maneuver",
+            "result": "Positive - mild paresthesia in thumb with extension/lateral bending right",
+            "evidence": [
+              {
+                "doc_name": "Elijah Banks.md",
+                "snippet": "Extension with lateral bending to the right causes mild paresthesia in thumb (Positive Spurling's Maneuver)",
+                "note_id": "EB_DOC1_S11"
+              }
+            ]
+          },
+          {
+            "test": "Hoffmann's sign",
+            "result": "Negative (no spinal cord compression signs)",
+            "evidence": [
+              {
+                "doc_name": "Elijah Banks.md",
+                "snippet": "No Hoffmann's sign (no spinal cord compression signs)",
+                "note_id": "EB_DOC1_S12"
+              }
+            ]
+          },
+          {
+            "test": "Cranial nerves II-XII",
+            "result": "Intact",
+            "evidence": [
+              {
+                "doc_name": "Elijah Banks.md",
+                "snippet": "Neuro: Cranial nerves II-XII intact. Sensation intact to light touch",
+                "note_id": "EB_DOC1_S13"
+              }
+            ]
+          }
+        ],
+        "evidence": []
+      },
+      "cardiovascular": {
+        "ekg": null,
+        "echo_ef": null,
+        "stress_test": null,
+        "bp_hr": "BP 128/74, HR 62",
+        "restrictions": null,
+        "evidence": [
+          {
+            "doc_name": "Elijah Banks.md",
+            "snippet": "Vitals: BP 128/74, HR 62",
+            "note_id": "EB_DOC1_S14"
+          }
+        ]
+      },
+      "current_capacity": {
+        "rom": [
+          {
+            "joint": "Cervical Spine",
+            "measurement": "Full flexion/extension",
+            "deficit": "None in basic ROM",
+            "evidence": [
+              {
+                "doc_name": "Elijah Banks.md",
+                "snippet": "ROM: Full flexion/extension",
+                "note_id": "EB_DOC1_S15"
+              }
+            ]
+          }
+        ],
+        "ligament_stability": [],
+        "strength_tests": [
+          {
+            "test": "Upper extremity strength",
+            "result": "Deltoid 5/5, Biceps 5/5, Triceps 5/5, Grip 5/5",
+            "evidence": [
+              {
+                "doc_name": "Elijah Banks.md",
+                "snippet": "Strength: Deltoid 5/5, Biceps 5/5, Triceps 5/5, Grip 5/5",
+                "note_id": "EB_DOC1_S16"
+              }
+            ]
+          },
+          {
+            "test": "Reflexes",
+            "result": "2+ Biceps, Triceps, Brachioradialis (normal)",
+            "evidence": [
+              {
+                "doc_name": "Elijah Banks.md",
+                "snippet": "Reflexes: 2+ Biceps, Triceps, Brachioradialis",
+                "note_id": "EB_DOC1_S17"
+              }
+            ]
+          }
+        ],
+        "pain_indicators": [],
+        "evidence": []
+      },
+      "durability_markers": [
+        {
+          "marker": "Congenital cervical stenosis with catastrophic injury risk",
+          "supporting_detail": "Torg Ratio <0.8, effaced CSF buffer, recurrent stingers, risk of transient quadriparesis",
+          "severity": "Critical",
+          "evidence": [
+            {
+              "doc_name": "Elijah Banks.md",
+              "snippet": "The risk is that a significant axial load event could cause Transient Quadriparesis (temporary paralysis) or end his career prematurely",
+              "note_id": "EB_DOC1_S18"
+            }
+          ]
+        },
+        {
+          "marker": "Recurrent concussions",
+          "supporting_detail": "2 documented concussions (2022, 2024), last required 14-day protocol",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Elijah Banks.md",
+              "snippet": "2 documented concussions (2022, 2024). Last one required 14 days protocol",
+              "note_id": "EB_DOC1_S19"
+            }
+          ]
+        }
+      ],
+      "clearance_status": {
+        "status": "High catastrophic injury risk / Career longevity concern",
+        "restrictions": [
+          "Risk of transient quadriparesis with axial load",
+          "Recurrent stinger episodes"
+        ],
+        "follow_up": "Ongoing monitoring, potential career-ending risk assessment",
+        "evidence": [
+          {
+            "doc_name": "Elijah Banks.md",
+            "snippet": "Risk Profile: High (Catastrophic Injury Risk/Career Longevity)",
+            "note_id": "EB_DOC1_S20"
+          }
+        ]
+      },
+      "medical_conditions": [],
+      "tier_summary": {
+        "tier1_core_decision_factors": [
+          "Congenital cervical stenosis (Torg Ratio <0.8)",
+          "Recurrent stingers (~3 per season)",
+          "2 concussions (2022, 2024)",
+          "Catastrophic injury risk (transient quadriparesis)"
+        ],
+        "tier2_predictive_analytics": [
+          "Position-specific vulnerability: LB involves high-impact collisions",
+          "Imaging red flags: Cord flattening, effaced CSF, foraminal stenosis",
+          "Recurrent neurological events (stingers)",
+          "Career longevity concern"
+        ],
+        "tier3_supporting_data": [
+          "AC joint sprain 2023 (healed)",
+          "Full upper extremity strength",
+          "Normal reflexes and cranial nerves"
+        ]
+      }
+    },
+    {
+      "player": {
+        "name": "Jackson Graves",
+        "position": "Offensive Tackle",
+        "team": null,
+        "college": null,
+        "draft_year": null,
+        "dob": "2003-02-14",
+        "height": "6'7\"",
+        "weight": "345 lbs",
+        "handedness": null,
+        "other_identifiers": [
+          {
+            "type": "Player ID",
+            "value": "77100293"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Jackson Graves.md",
+            "snippet": "Position: Offensive Tackle, ID: 77100293, DOB: 02/14/2003",
+            "note_id": "JG_DOC1_S1"
+          },
+          {
+            "doc_name": "Jackson Graves.md",
+            "snippet": "Height/Weight: 6'7\", 345 lbs.",
+            "note_id": "JG_DOC1_S2"
+          }
+        ]
+      },
+      "injury_events": [
+        {
+          "event_id": "JG_IE001",
+          "body_part": "Left Foot",
+          "joint": "5th Metatarsal",
+          "side": "Left",
+          "injury_type": "Stress reaction (Zone 2 of 5th metatarsal - Jones Fracture prodrome)",
+          "date": "Training camp 2025",
+          "season": "2025",
+          "severity": "Moderate (Grade 2 bone marrow edema, warning sign for Jones Fracture)",
+          "mechanism": "Overload due to Pes Cavus varus deformity",
+          "treatment": [
+            "Heavy taping"
+          ],
+          "recovery_time": null,
+          "return_to_play": "Playing with tape",
+          "missed_practice_time": null,
+          "missed_games": "1 game (2025)",
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": "Chronic ongoing stress"
+          },
+          "imaging_refs": ["JG_IM001", "JG_IM002"],
+          "exam_findings_refs": ["JG_EX001"],
+          "evidence": [
+            {
+              "doc_name": "Jackson Graves.md",
+              "snippet": "Episodes of lateral foot pain during training camp 2025. Taped heavily to play",
+              "note_id": "JG_DOC1_S3"
+            },
+            {
+              "doc_name": "Jackson Graves.md",
+              "snippet": "2025: Missed 1 game ('Foot Sprain')",
+              "note_id": "JG_DOC1_S4"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "event_id": "JG_IE002",
+          "body_part": "Knees",
+          "joint": "Patellar tendon",
+          "side": "Bilateral",
+          "injury_type": "Patellar tendonitis (Jumper's Knee)",
+          "date": "High school",
+          "season": "High school",
+          "severity": "Mild (managed with ice)",
+          "mechanism": null,
+          "treatment": [
+            "Ice"
+          ],
+          "recovery_time": null,
+          "return_to_play": "Managed",
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": [],
+          "exam_findings_refs": [],
+          "evidence": [
+            {
+              "doc_name": "Jackson Graves.md",
+              "snippet": "Knees: Bilateral patellar tendonitis (Jumper's Knee) in high school. Managed with ice. Exam: Mild crepitus. No effusion",
+              "note_id": "JG_DOC1_S5"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "event_id": "JG_IE003",
+          "body_part": "Right Hand",
+          "joint": "Pinky finger",
+          "side": "Right",
+          "injury_type": "Dislocated pinky finger",
+          "date": "2022",
+          "season": "2022",
+          "severity": "Mild (reduced on field)",
+          "mechanism": null,
+          "treatment": [
+            "Reduced on field"
+          ],
+          "recovery_time": null,
+          "return_to_play": "Full function",
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": [],
+          "exam_findings_refs": [],
+          "evidence": [
+            {
+              "doc_name": "Jackson Graves.md",
+              "snippet": "Hands: Dislocated pinky finger 2022. Reduced on field. Exam: Full function",
+              "note_id": "JG_DOC1_S6"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "surgeries_procedures": [
+        {
+          "proc_id": "JG_SP001",
+          "date": null,
+          "procedure_name": "Prophylactic surgical fixation or orthotics (recommended)",
+          "body_part": "Left Foot (5th metatarsal)",
+          "side": "Left",
+          "reason": "Prevent Jones Fracture in high-risk stress reaction",
+          "hardware_present": "Unknown (surgery not yet performed)",
+          "outcome": "Pending",
+          "complications": null,
+          "evidence": [
+            {
+              "doc_name": "Jackson Graves.md",
+              "snippet": "If he plays at NFL weight/speed without surgical fixation or orthotics, he is at extremely high risk for a Jones Fracture (non-union prone)",
+              "note_id": "JG_DOC1_S7"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "imaging_findings": [
+        {
+          "img_id": "JG_IM001",
+          "date": "2026-02-26",
+          "modality": "X-Ray",
+          "body_part": "Left Foot",
+          "side": "Left",
+          "key_positives": [
+            "Focal cortical thickening and sclerosis at 5th metatarsal metaphyseal-diaphyseal junction (Zone 2)",
+            "Cavovarus foot deformity"
+          ],
+          "key_negatives": [
+            "No frank fracture line",
+            "Midfoot joints congruent"
+          ],
+          "red_flags": [
+            "Cortical thickening (stress reaction warning sign)",
+            "Zone 2 location (high risk for Jones Fracture)",
+            "Pes Cavus varus deformity (predisposing factor)"
+          ],
+          "impression": "Stress reaction at Zone 2 of 5th metatarsal with underlying structural deformity",
+          "evidence": [
+            {
+              "doc_name": "Jackson Graves.md",
+              "snippet": "There is focal cortical thickening and sclerosis at the metaphyseal-diaphyseal junction (Zone 2). No frank fracture line is seen, but the cortex is thickened. Cavovarus foot deformity",
+              "note_id": "JG_DOC1_S8"
+            }
+          ]
+        },
+        {
+          "img_id": "JG_IM002",
+          "date": "2026-02-26",
+          "modality": "MRI",
+          "body_part": "Left Foot",
+          "side": "Left",
+          "key_positives": [
+            "Grade 2 bone marrow edema in proximal 5th metatarsal shaft (Zone 2/3 junction)",
+            "Intracortical signal abnormality (stress reaction)",
+            "Mild peroneal tendonitis"
+          ],
+          "key_negatives": [
+            "No acute fracture line",
+            "Lisfranc ligament intact"
+          ],
+          "red_flags": [
+            "Grade 2 bone marrow edema (significant stress)",
+            "Intracortical signal abnormality",
+            "Warning sign for impending Jones Fracture"
+          ],
+          "impression": "Symptomatic Stress Reaction of proximal 5th metatarsal (Zone 2) - warning for Jones Fracture",
+          "evidence": [
+            {
+              "doc_name": "Jackson Graves.md",
+              "snippet": "Grade 2 bone marrow edema within the proximal shaft of the 5th metatarsal (Zone 2/3 junction). Intracortical signal abnormality consistent with a stress reaction. Symptomatic Stress Reaction - Warning sign for impending Jones Fracture",
+              "note_id": "JG_DOC1_S9"
+            }
+          ]
+        }
+      ],
+      "missed_time_summary": {
+        "practice_missed": null,
+        "games_missed": "1 game in 2025",
+        "ir_pup_nfi": null,
+        "no_missed_time_claims": [],
+        "evidence": [
+          {
+            "doc_name": "Jackson Graves.md",
+            "snippet": "2025: Missed 1 game ('Foot Sprain')",
+            "note_id": "JG_DOC1_S10"
+          }
+        ]
+      },
+      "concussions_neuro": {
+        "concussion_count": 0,
+        "events": [],
+        "neuro_assessments": [],
+        "evidence": []
+      },
+      "cardiovascular": {
+        "ekg": null,
+        "echo_ef": null,
+        "stress_test": null,
+        "bp_hr": "BP 138/85",
+        "restrictions": null,
+        "evidence": [
+          {
+            "doc_name": "Jackson Graves.md",
+            "snippet": "Vitals: BP 138/85",
+            "note_id": "JG_DOC1_S11"
+          }
+        ]
+      },
+      "current_capacity": {
+        "rom": [],
+        "ligament_stability": [
+          {
+            "test": "Knee stability",
+            "result": "Normal",
+            "evidence": [
+              {
+                "doc_name": "Jackson Graves.md",
+                "snippet": "Knees: Stability normal",
+                "note_id": "JG_DOC1_S12"
+              }
+            ]
+          }
+        ],
+        "strength_tests": [
+          {
+            "test": "Peroneals",
+            "result": "Strong",
+            "evidence": [
+              {
+                "doc_name": "Jackson Graves.md",
+                "snippet": "Strength: Peroneals strong",
+                "note_id": "JG_DOC1_S13"
+              }
+            ]
+          }
+        ],
+        "pain_indicators": [
+          {
+            "location": "Base of left 5th metatarsal",
+            "severity": "Point tenderness",
+            "evidence": [
+              {
+                "doc_name": "Jackson Graves.md",
+                "snippet": "Palpation: Point tenderness at the base of the 5th metatarsal",
+                "note_id": "JG_DOC1_S14"
+              }
+            ]
+          }
+        ],
+        "evidence": []
+      },
+      "durability_markers": [
+        {
+          "marker": "High risk for Jones Fracture (non-union prone)",
+          "supporting_detail": "Pes Cavus varus deformity, Zone 2 stress reaction, Grade 2 bone marrow edema",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Jackson Graves.md",
+              "snippet": "If he plays at NFL weight/speed without surgical fixation or orthotics, he is at extremely high risk for a Jones Fracture (non-union prone)",
+              "note_id": "JG_DOC1_S15"
+            }
+          ]
+        },
+        {
+          "marker": "Structural foot deformity predisposing to injury",
+          "supporting_detail": "Bilateral Pes Cavus with varus hindfoot alignment (walks on outside of feet)",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Jackson Graves.md",
+              "snippet": "Bilateral Pes Cavus (High Arches) with varus hindfoot alignment (walks on outside of feet). Underlying Pes Cavus varus deformity (predisposing factor)",
+              "note_id": "JG_DOC1_S16"
+            }
+          ]
+        }
+      ],
+      "clearance_status": {
+        "status": "High foot fracture risk without intervention",
+        "restrictions": [
+          "Requires surgical fixation or orthotics to prevent Jones Fracture"
+        ],
+        "follow_up": "Surgical consultation or custom orthotics",
+        "evidence": [
+          {
+            "doc_name": "Jackson Graves.md",
+            "snippet": "Risk Profile: High (Foot fracture risk)",
+            "note_id": "JG_DOC1_S17"
+          }
+        ]
+      },
+      "medical_conditions": [
+        {
+          "condition": "Gout",
+          "diagnosis_date": "2024 (one flare-up)",
+          "management": "Treated with Indomethacin. Uric acid currently normal",
+          "evidence": [
+            {
+              "doc_name": "Jackson Graves.md",
+              "snippet": "History of gout flare-up once in 2024 (treated with Indomethacin). Uric acid currently normal",
+              "note_id": "JG_DOC1_S18"
+            }
+          ]
+        }
+      ],
+      "tier_summary": {
+        "tier1_core_decision_factors": [
+          "Stress reaction Zone 2 of 5th metatarsal (Jones Fracture prodrome)",
+          "Pes Cavus varus deformity (structural predisposition)",
+          "Grade 2 bone marrow edema",
+          "Requires surgical fixation or orthotics"
+        ],
+        "tier2_predictive_analytics": [
+          "Position-specific vulnerability: OT at 345 lbs places high load on feet",
+          "Imaging chronicity: Cortical thickening, intracortical signal abnormality",
+          "Structural deformity driving injury pattern"
+        ],
+        "tier3_supporting_data": [
+          "Gout history (2024, controlled)",
+          "Bilateral patellar tendonitis (high school)",
+          "Dislocated pinky 2022 (healed)",
+          "BMI 40.2 (morbidly obese by BMI but muscular)",
+          "Wears custom orthotics for flat feet"
+        ]
+      }
+    },
+    {
+      "player": {
+        "name": "Lucas Vance",
+        "position": "Quarterback",
+        "team": null,
+        "college": null,
+        "draft_year": null,
+        "dob": "2003-05-22",
+        "height": "6'3\"",
+        "weight": "220 lbs",
+        "handedness": "Right (Throwing)",
+        "other_identifiers": [
+          {
+            "type": "Player ID",
+            "value": "12100558"
+          },
+          {
+            "type": "Hand Size",
+            "value": "9.5 inches"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Lucas Vance.md",
+            "snippet": "Position: Quarterback, ID: 12100558, DOB: 05/22/2003",
+            "note_id": "LV_DOC1_S1"
+          },
+          {
+            "doc_name": "Lucas Vance.md",
+            "snippet": "Height/Weight: 6'3\", 220 lbs. Hand Size: 9.5 inches",
+            "note_id": "LV_DOC1_S2"
+          }
+        ]
+      },
+      "injury_events": [
+        {
+          "event_id": "LV_IE001",
+          "body_part": "Right Shoulder",
+          "joint": "Glenohumeral joint",
+          "side": "Right",
+          "injury_type": "Type 2 SLAP tear (Superior Labrum)",
+          "date": "November 2024",
+          "season": "2024",
+          "severity": "Moderate (required arthroscopic repair)",
+          "mechanism": null,
+          "treatment": [
+            "Arthroscopic SLAP repair"
+          ],
+          "recovery_time": null,
+          "return_to_play": "Returned but developed GIRD",
+          "missed_practice_time": null,
+          "missed_games": "Last 3 games of 2024 season",
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": ["LV_IM001"],
+          "exam_findings_refs": ["LV_EX001"],
+          "evidence": [
+            {
+              "doc_name": "Lucas Vance.md",
+              "snippet": "Type 2 SLAP (Superior Labrum) tear Nov 2024. Repaired arthroscopically",
+              "note_id": "LV_DOC1_S3"
+            },
+            {
+              "doc_name": "Lucas Vance.md",
+              "snippet": "2024 Season: Missed last 3 games (Right Shoulder Surgery)",
+              "note_id": "LV_DOC1_S4"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "event_id": "LV_IE002",
+          "body_part": "Right Elbow",
+          "joint": "Elbow (UCL)",
+          "side": "Right",
+          "injury_type": "Thrower's Elbow (UCL thickening, mild laxity, flexor-pronator strain)",
+          "date": "During rehabilitation phase (post-shoulder surgery)",
+          "season": "2024-2025",
+          "severity": "Mild to Moderate (no acute tear but chronic remodeling)",
+          "mechanism": "Compensatory overload due to shoulder GIRD",
+          "treatment": [],
+          "recovery_time": null,
+          "return_to_play": "Playing with symptoms",
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": ["LV_IM002"],
+          "exam_findings_refs": ["LV_EX002"],
+          "evidence": [
+            {
+              "doc_name": "Lucas Vance.md",
+              "snippet": "Occasional medial elbow soreness reported during rehabilitation phase. Mild tenderness over the Ulnar Collateral Ligament (UCL)",
+              "note_id": "LV_DOC1_S5"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "surgeries_procedures": [
+        {
+          "proc_id": "LV_SP001",
+          "date": "November 2024",
+          "procedure_name": "Arthroscopic SLAP repair",
+          "body_part": "Right Shoulder",
+          "side": "Right",
+          "reason": "Type 2 SLAP tear",
+          "hardware_present": "Yes (suture anchors)",
+          "outcome": "Labrum healed, but developed posterior capsular fibrosis (GIRD)",
+          "complications": "Posterior capsular thickening/fibrosis causing GIRD",
+          "evidence": [
+            {
+              "doc_name": "Lucas Vance.md",
+              "snippet": "Type 2 SLAP tear Nov 2024. Repaired arthroscopically. Suture anchors from prior SLAP repair are in good position. Superior labrum appears healed",
+              "note_id": "LV_DOC1_S6"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "imaging_findings": [
+        {
+          "img_id": "LV_IM001",
+          "date": "2026-02-26",
+          "modality": "MRI Arthrogram",
+          "body_part": "Right Shoulder",
+          "side": "Right",
+          "key_positives": [
+            "Suture anchors in good position",
+            "Superior labrum healed and attached",
+            "Significant thickening of posterior inferior glenohumeral ligament (PIGHL)",
+            "Posterior capsule thickening/fibrosis"
+          ],
+          "key_negatives": [
+            "No recurrent SLAP tear",
+            "Rotator cuff intact, no tears",
+            "No Hill-Sachs lesion"
+          ],
+          "red_flags": [
+            "Marked posterior capsular thickening/fibrosis (GIRD)",
+            "Loss of internal rotation due to capsular contracture"
+          ],
+          "impression": "Intact SLAP repair with marked posterior capsular thickening/fibrosis (GIRD)",
+          "evidence": [
+            {
+              "doc_name": "Lucas Vance.md",
+              "snippet": "Suture anchors from prior SLAP repair are in good position. Superior labrum appears healed. Significant thickening of the posterior inferior glenohumeral ligament (PIGHL) and posterior capsule",
+              "note_id": "LV_DOC1_S7"
+            }
+          ]
+        },
+        {
+          "img_id": "LV_IM002",
+          "date": "2026-02-26",
+          "modality": "Ultrasound (Dynamic)",
+          "body_part": "Right Elbow",
+          "side": "Right",
+          "key_positives": [
+            "UCL anterior bundle thickened (chronic remodeling)",
+            "1.5mm joint gapping with valgus stress (mild laxity)",
+            "Mild inflammation at common flexor origin"
+          ],
+          "key_negatives": [
+            "No acute tear or high-grade partial tear",
+            "End-point is firm"
+          ],
+          "red_flags": [
+            "Chronic UCL remodeling (Thrower's Elbow)",
+            "Mild laxity (1.5mm gapping)",
+            "Flexor-pronator mass strain"
+          ],
+          "impression": "Thickened UCL consistent with Thrower's Elbow, no acute rupture, mild flexor-pronator strain",
+          "evidence": [
+            {
+              "doc_name": "Lucas Vance.md",
+              "snippet": "Anterior bundle of the UCL is thickened (chronic remodeling). No acute tear. With valgus stress, there is 1.5mm of joint gapping (mild laxity). Mild inflammation at the common flexor origin",
+              "note_id": "LV_DOC1_S8"
+            }
+          ]
+        }
+      ],
+      "missed_time_summary": {
+        "practice_missed": null,
+        "games_missed": "Last 3 games of 2024 season",
+        "ir_pup_nfi": null,
+        "no_missed_time_claims": [],
+        "evidence": [
+          {
+            "doc_name": "Lucas Vance.md",
+            "snippet": "2024 Season: Missed last 3 games (Right Shoulder Surgery)",
+            "note_id": "LV_DOC1_S9"
+          }
+        ]
+      },
+      "concussions_neuro": {
+        "concussion_count": 1,
+        "events": [
+          {
+            "date": "High school",
+            "severity": "Unknown",
+            "symptom_duration": null,
+            "time_to_clear": null,
+            "recurrence": false,
+            "evidence": [
+              {
+                "doc_name": "Lucas Vance.md",
+                "snippet": "Concussion: 1 diagnosed in high school. None in college",
+                "note_id": "LV_DOC1_S10"
+              }
+            ]
+          }
+        ],
+        "neuro_assessments": [],
+        "evidence": []
+      },
+      "cardiovascular": {
+        "ekg": null,
+        "echo_ef": null,
+        "stress_test": null,
+        "bp_hr": null,
+        "restrictions": null,
+        "evidence": []
+      },
+      "current_capacity": {
+        "rom": [
+          {
+            "joint": "Right Shoulder",
+            "measurement": "External Rotation 110 degrees (Excessive/Laxity), Internal Rotation 35 degrees (Significant deficit)",
+            "deficit": "GIRD - Glenohumeral Internal Rotation Deficit",
+            "evidence": [
+              {
+                "doc_name": "Lucas Vance.md",
+                "snippet": "External Rotation (ER): 110 degrees (Excessive/Laxity). Internal Rotation (IR): 35 degrees (Significant deficit). Total Arc of Motion is preserved, but shifted significantly towards ER",
+                "note_id": "LV_DOC1_S11"
+              }
+            ]
+          }
+        ],
+        "ligament_stability": [
+          {
+            "test": "UCL valgus stress test at 30 degrees",
+            "result": "Negative (stable) but causes mild discomfort",
+            "evidence": [
+              {
+                "doc_name": "Lucas Vance.md",
+                "snippet": "Valgus stress test at 30 degrees is negative (stable), but causes mild discomfort. Moving Valgus Stress Test is equivocal",
+                "note_id": "LV_DOC1_S12"
+              }
+            ]
+          }
+        ],
+        "strength_tests": [
+          {
+            "test": "Rotator cuff strength",
+            "result": "5/5",
+            "evidence": [
+              {
+                "doc_name": "Lucas Vance.md",
+                "snippet": "Strength: 5/5 rotator cuff",
+                "note_id": "LV_DOC1_S13"
+              }
+            ]
+          },
+          {
+            "test": "Grip strength",
+            "result": "Symmetrical",
+            "evidence": [
+              {
+                "doc_name": "Lucas Vance.md",
+                "snippet": "Grip strength symmetrical",
+                "note_id": "LV_DOC1_S14"
+              }
+            ]
+          }
+        ],
+        "pain_indicators": [
+          {
+            "location": "Right shoulder",
+            "severity": "Feels 'tight' but strong, no pain with throwing but velocity drops late in practice",
+            "evidence": [
+              {
+                "doc_name": "Lucas Vance.md",
+                "snippet": "Reports shoulder feels 'tight' but strong. No pain with throwing, but velocity drops late in practice",
+                "note_id": "LV_DOC1_S15"
+              }
+            ]
+          },
+          {
+            "location": "Right elbow (medial)",
+            "severity": "Mild tenderness over UCL",
+            "evidence": [
+              {
+                "doc_name": "Lucas Vance.md",
+                "snippet": "Mild tenderness over the Ulnar Collateral Ligament (UCL)",
+                "note_id": "LV_DOC1_S16"
+              }
+            ]
+          }
+        ],
+        "evidence": []
+      },
+      "durability_markers": [
+        {
+          "marker": "Distal compensation risk - GIRD forcing elbow overload",
+          "supporting_detail": "Posterior capsular fibrosis causing GIRD, shifting load to elbow UCL",
+          "severity": "Medium-High",
+          "evidence": [
+            {
+              "doc_name": "Lucas Vance.md",
+              "snippet": "The shoulder repair is structurally sound, but the patient has developed GIRD. This lack of shoulder rotation is forcing the elbow to accept excessive valgus load, creating a high risk for UCL (Tommy John) injury",
+              "note_id": "LV_DOC1_S17"
+            }
+          ]
+        },
+        {
+          "marker": "Chronic UCL remodeling (Thrower's Elbow)",
+          "supporting_detail": "Thickened UCL, 1.5mm laxity, flexor-pronator inflammation",
+          "severity": "Medium",
+          "evidence": [
+            {
+              "doc_name": "Lucas Vance.md",
+              "snippet": "Anterior bundle of the UCL is thickened (chronic remodeling). With valgus stress, there is 1.5mm of joint gapping (mild laxity)",
+              "note_id": "LV_DOC1_S18"
+            }
+          ]
+        }
+      ],
+      "clearance_status": {
+        "status": "Cleared but medium-high elbow injury risk",
+        "restrictions": [
+          "Monitor throwing volume and velocity",
+          "Address GIRD to reduce elbow stress"
+        ],
+        "follow_up": "Posterior capsule stretching/release, monitor UCL",
+        "evidence": [
+          {
+            "doc_name": "Lucas Vance.md",
+            "snippet": "Risk Profile: Medium-High (Elbow), Low (Shoulder Recurrence)",
+            "note_id": "LV_DOC1_S19"
+          }
+        ]
+      },
+      "medical_conditions": [],
+      "tier_summary": {
+        "tier1_core_decision_factors": [
+          "SLAP repair (Nov 2024) - healed but developed GIRD",
+          "GIRD (Glenohumeral Internal Rotation Deficit) - 35 degrees IR",
+          "Chronic UCL remodeling (Thrower's Elbow)",
+          "High risk for UCL injury due to compensatory elbow overload"
+        ],
+        "tier2_predictive_analytics": [
+          "Position-specific vulnerability: QB requires repetitive throwing",
+          "Kinetic chain disruption: Shoulder GIRD forcing elbow compensation",
+          "Imaging chronicity: Posterior capsular fibrosis, UCL thickening",
+          "Velocity drops late in practice (fatigue/compensation)"
+        ],
+        "tier3_supporting_data": [
+          "One concussion (high school)",
+          "Hand size 9.5 inches",
+          "No chronic illnesses",
+          "Left knee clean"
+        ]
+      }
+    },
+    {
+      "player": {
+        "name": "Marcus Jefferson",
+        "position": "Defensive Tackle",
+        "team": null,
+        "college": null,
+        "draft_year": null,
+        "dob": "2003-07-07",
+        "height": "6'3\"",
+        "weight": "340 lbs",
+        "handedness": null,
+        "other_identifiers": [
+          {
+            "type": "Player ID",
+            "value": "99881100"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Marcus Jefferson.md",
+            "snippet": "Position: Defensive Tackle, ID: 99881100, DOB: 07/07/2003",
+            "note_id": "MJ_DOC1_S1"
+          },
+          {
+            "doc_name": "Marcus Jefferson.md",
+            "snippet": "Height/Weight: 6'3\", 340 lbs.",
+            "note_id": "MJ_DOC1_S2"
+          }
+        ]
+      },
+      "injury_events": [
+        {
+          "event_id": "MJ_IE001",
+          "body_part": "Lumbar Spine",
+          "joint": "L4-L5",
+          "side": null,
+          "injury_type": "L4-L5 disc bulge",
+          "date": "2024",
+          "season": "2024",
+          "severity": "Moderate (managed with epidural injection)",
+          "mechanism": null,
+          "treatment": [
+            "Epidural injection"
+          ],
+          "recovery_time": null,
+          "return_to_play": "Currently asymptomatic",
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": [],
+          "exam_findings_refs": [],
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "Lumbar Spine: History of L4-L5 bulge 2024. Managed with epidural injection. Currently asymptomatic",
+              "note_id": "MJ_DOC1_S3"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "event_id": "MJ_IE002",
+          "body_part": "Right Knee",
+          "joint": "Knee (medial compartment)",
+          "side": "Right",
+          "injury_type": "Mild medial osteoarthritis",
+          "date": null,
+          "season": "Chronic",
+          "severity": "Mild",
+          "mechanism": null,
+          "treatment": [],
+          "recovery_time": null,
+          "return_to_play": null,
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": [],
+          "exam_findings_refs": [],
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "Knees: Mild medial OA right knee",
+              "note_id": "MJ_DOC1_S4"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "surgeries_procedures": [],
+      "imaging_findings": [
+        {
+          "img_id": "MJ_IM001",
+          "date": "2026-02-26",
+          "modality": "Ultrasound",
+          "body_part": "Kidneys/Abdomen",
+          "side": "Right (solitary)",
+          "key_positives": [
+            "Left kidney not visualized (congenital renal agenesis)",
+            "Right kidney compensatory hypertrophy (13.5 cm)",
+            "Mild increased echogenicity of right kidney (medical renal disease)"
+          ],
+          "key_negatives": [
+            "Bladder normal"
+          ],
+          "red_flags": [
+            "Solitary kidney (congenital)",
+            "Increased echogenicity suggesting mild medical renal disease",
+            "Proteinuria (2+) indicating kidney stress",
+            "Hypertension (148/92, 144/90)",
+            "Elevated creatinine (1.35 mg/dL)",
+            "Reduced eGFR (68 mL/min)"
+          ],
+          "impression": "Solitary Right Kidney with compensatory hypertrophy and mild medical renal disease",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "Left Kidney: Not visualized. Consistent with congenital renal agenesis. Right Kidney: Compensatory hypertrophy. Measures 13.5 cm. Echotexture is slightly echogenic (suggesting mild medical renal disease)",
+              "note_id": "MJ_DOC1_S5"
+            }
+          ]
+        }
+      ],
+      "missed_time_summary": {
+        "practice_missed": null,
+        "games_missed": null,
+        "ir_pup_nfi": null,
+        "no_missed_time_claims": [
+          {
+            "claim": "No missed time - 'Iron Man' reputation",
+            "flag_conflict": false,
+            "evidence": [
+              {
+                "doc_name": "Marcus Jefferson.md",
+                "snippet": "Missed Time: None. 'Iron Man' reputation",
+                "note_id": "MJ_DOC1_S6"
+              }
+            ]
+          }
+        ],
+        "evidence": []
+      },
+      "concussions_neuro": {
+        "concussion_count": 0,
+        "events": [],
+        "neuro_assessments": [],
+        "evidence": []
+      },
+      "cardiovascular": {
+        "ekg": "LVH criteria met (likely due to body habitus/HTN). Echo recommended",
+        "echo_ef": "Recommended but not yet performed",
+        "stress_test": null,
+        "bp_hr": "BP 148/92 (Reading 1), 144/90 (Reading 2)",
+        "restrictions": null,
+        "evidence": [
+          {
+            "doc_name": "Marcus Jefferson.md",
+            "snippet": "Vitals: BP Reading 1: 148/92. BP Reading 2: 144/90. EKG: LVH criteria met (likely due to body habitus/HTN). Echo recommended",
+            "note_id": "MJ_DOC1_S7"
+          }
+        ]
+      },
+      "current_capacity": {
+        "rom": [],
+        "ligament_stability": [],
+        "strength_tests": [],
+        "pain_indicators": [],
+        "evidence": []
+      },
+      "durability_markers": [
+        {
+          "marker": "Solitary kidney with proteinuria and hypertension (hyperfiltration injury)",
+          "supporting_detail": "Congenital renal agenesis, proteinuria 2+, eGFR 68, creatinine 1.35, HTN 148/92",
+          "severity": "Critical (Long-term health/longevity)",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "The player was born with only one kidney (Renal Agenesis). While usually playable, he has Proteinuria and Hypertension. This combination suggests the solitary kidney is under stress (Hyperfiltration Injury). An NFL career involves high protein intake, NSAID use (Toradol), and dehydration---all toxic to a stressed solitary kidney",
+              "note_id": "MJ_DOC1_S8"
+            }
+          ]
+        },
+        {
+          "marker": "Mild medical renal disease in solitary kidney",
+          "supporting_detail": "Increased echogenicity on ultrasound, proteinuria, reduced eGFR",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "Echotexture is slightly echogenic (suggesting mild medical renal disease). Mild increased echogenicity of the right kidney, clinically correlated with proteinuria",
+              "note_id": "MJ_DOC1_S9"
+            }
+          ]
+        }
+      ],
+      "clearance_status": {
+        "status": "High long-term health/longevity risk",
+        "restrictions": [
+          "Monitor kidney function closely",
+          "Avoid NSAIDs (Toradol)",
+          "Manage hydration and protein intake",
+          "Control hypertension"
+        ],
+        "follow_up": "Nephrology consultation, echo for LVH, ongoing renal monitoring",
+        "evidence": [
+          {
+            "doc_name": "Marcus Jefferson.md",
+            "snippet": "Risk Profile: High (Long-term Health/Longevity)",
+            "note_id": "MJ_DOC1_S10"
+          }
+        ]
+      },
+      "medical_conditions": [
+        {
+          "condition": "Congenital Renal Agenesis (Solitary Right Kidney)",
+          "diagnosis_date": "Congenital",
+          "management": "Monitoring, proteinuria 2+, eGFR 68",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "Left Kidney: Not visualized. Consistent with congenital renal agenesis",
+              "note_id": "MJ_DOC1_S11"
+            }
+          ]
+        },
+        {
+          "condition": "Hypertension",
+          "diagnosis_date": "College",
+          "management": "Not currently on medication (BP 148/92, 144/90)",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "'Borderline' High Blood Pressure diagnosed in college. Not currently on medication. BP Reading 1: 148/92. BP Reading 2: 144/90",
+              "note_id": "MJ_DOC1_S12"
+            }
+          ]
+        },
+        {
+          "condition": "Proteinuria",
+          "diagnosis_date": "Current",
+          "management": "2+ protein (100 mg/dL) - abnormal",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "Urinalysis: Protein: 2+ (100 mg/dL) - Abnormal",
+              "note_id": "MJ_DOC1_S13"
+            }
+          ]
+        },
+        {
+          "condition": "Microscopic hematuria",
+          "diagnosis_date": "Freshman physical",
+          "management": "Trace blood in urine",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "History of microscopic hematuria (blood in urine) found during freshman physical. Urinalysis: Blood: Trace",
+              "note_id": "MJ_DOC1_S14"
+            }
+          ]
+        }
+      ],
+      "labs": [
+        {
+          "test": "Creatinine",
+          "result": "1.35 mg/dL",
+          "flag": "High Normal/Borderline",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "Creatinine: 1.35 mg/dL (High Normal/Borderline)",
+              "note_id": "MJ_DOC1_S15"
+            }
+          ]
+        },
+        {
+          "test": "eGFR",
+          "result": "68 mL/min",
+          "flag": "Mildly reduced for age",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "eGFR: 68 mL/min (Mildly reduced for age)",
+              "note_id": "MJ_DOC1_S16"
+            }
+          ]
+        },
+        {
+          "test": "Glucose",
+          "result": "105 mg/dL",
+          "flag": "High Normal",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "Glucose: 105 mg/dL (High Normal)",
+              "note_id": "MJ_DOC1_S17"
+            }
+          ]
+        },
+        {
+          "test": "A1c",
+          "result": "5.6%",
+          "flag": "Normal",
+          "evidence": [
+            {
+              "doc_name": "Marcus Jefferson.md",
+              "snippet": "A1c: 5.6%",
+              "note_id": "MJ_DOC1_S18"
+            }
+          ]
+        }
+      ],
+      "tier_summary": {
+        "tier1_core_decision_factors": [
+          "Solitary kidney (congenital renal agenesis)",
+          "Proteinuria (2+) indicating kidney stress",
+          "Hypertension (148/92, not medicated)",
+          "Reduced eGFR (68 mL/min)",
+          "Mild medical renal disease (echogenic kidney)"
+        ],
+        "tier2_predictive_analytics": [
+          "Long-term health risk: NFL demands (protein, NSAIDs, dehydration) toxic to stressed kidney",
+          "Family history: Father with Type 2 Diabetes and early OA",
+          "Imaging chronicity: Compensatory hypertrophy, increased echogenicity"
+        ],
+        "tier3_supporting_data": [
+          "L4-L5 disc bulge (2024, asymptomatic)",
+          "Mild medial OA right knee",
+          "Sleep apnea (uses CPAP)",
+          "BMI 40.2",
+          "LVH on EKG (echo recommended)",
+          "No missed games ('Iron Man')"
+        ]
+      }
+    },
+    {
+      "player": {
+        "name": "Marcus Thorne",
+        "position": "Interior Defensive Line",
+        "team": null,
+        "college": null,
+        "draft_year": null,
+        "dob": "2003-01-15",
+        "height": "6'4\"",
+        "weight": "330 lbs",
+        "handedness": null,
+        "other_identifiers": [
+          {
+            "type": "Player ID",
+            "value": "99210044"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Marcus Thorne.md",
+            "snippet": "Position: Interior Defensive Line, ID: 99210044, DOB: 01/15/2003",
+            "note_id": "MT_DOC1_S1"
+          },
+          {
+            "doc_name": "Marcus Thorne.md",
+            "snippet": "Height/Weight: 6'4\", 330 lbs. BMI: 40.2",
+            "note_id": "MT_DOC1_S2"
+          }
+        ]
+      },
+      "injury_events": [
+        {
+          "event_id": "MT_IE001",
+          "body_part": "Left Knee",
+          "joint": "Lateral meniscus",
+          "side": "Left",
+          "injury_type": "Lateral meniscus tear (partial meniscectomy performed)",
+          "date": "October 2023",
+          "season": "2023",
+          "severity": "Moderate (required surgery, ~40% meniscus removed)",
+          "mechanism": null,
+          "treatment": [
+            "Partial Lateral Meniscectomy (~40% removed)"
+          ],
+          "recovery_time": null,
+          "return_to_play": "Returned but chronic symptoms",
+          "missed_practice_time": "Missed spring practice 2025 (swelling)",
+          "missed_games": "4 games (2023)",
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": "Chronic ongoing issue post-surgery"
+          },
+          "imaging_refs": ["MT_IM001", "MT_IM002"],
+          "exam_findings_refs": ["MT_EX001"],
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "Lateral meniscus tear Oct 2023. Treated with Partial Lateral Meniscectomy (approx 40% removed)",
+              "note_id": "MT_DOC1_S3"
+            },
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "2023: Missed 4 games (Left Knee surgery). 2025: Missed spring practice (Left Knee swelling)",
+              "note_id": "MT_DOC1_S4"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "event_id": "MT_IE002",
+          "body_part": "Right Shoulder",
+          "joint": "AC Joint",
+          "side": "Right",
+          "injury_type": "AC joint sprain",
+          "date": "2022",
+          "season": "2022",
+          "severity": "Mild (non-operative)",
+          "mechanism": null,
+          "treatment": [
+            "Non-operative"
+          ],
+          "recovery_time": null,
+          "return_to_play": "Healed",
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": [],
+          "exam_findings_refs": [],
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "Right Shoulder: AC joint sprain 2022. Non-operative. Exam: AC joint prominent but non-tender. Full ROM",
+              "note_id": "MT_DOC1_S5"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "surgeries_procedures": [
+        {
+          "proc_id": "MT_SP001",
+          "date": "October 2023",
+          "procedure_name": "Partial Lateral Meniscectomy",
+          "body_part": "Left Knee",
+          "side": "Left",
+          "reason": "Lateral meniscus tear",
+          "hardware_present": "No",
+          "outcome": "Developed Grade 3 chondromalacia and premature osteoarthritis",
+          "complications": "Advanced premature osteoarthritis in lateral compartment, chronic effusion, synovitis",
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "Lateral meniscus tear Oct 2023. Treated with Partial Lateral Meniscectomy (approx 40% removed). Advanced premature osteoarthritis in the lateral compartment (Grade 3 chondral defects)",
+              "note_id": "MT_DOC1_S6"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "imaging_findings": [
+        {
+          "img_id": "MT_IM001",
+          "date": "2026-02-26",
+          "modality": "MRI",
+          "body_part": "Left Knee",
+          "side": "Left",
+          "key_positives": [
+            "Diminutive lateral meniscus (post-meniscectomy)",
+            "Grade 3 Chondromalacia lateral femoral condyle (fissuring >50% depth)",
+            "Grade 2 chondral changes medial patella facet",
+            "Moderate joint effusion",
+            "Synovitis present"
+          ],
+          "key_negatives": [
+            "No acute tear in remnant meniscus",
+            "PCL intact",
+            "Native ACL intact"
+          ],
+          "red_flags": [
+            "Grade 3 chondromalacia (advanced cartilage damage)",
+            "Premature osteoarthritis in lateral compartment",
+            "Active synovitis and moderate effusion",
+            "High probability of arthritic decline within 3-4 years"
+          ],
+          "impression": "Post-surgical changes with advanced premature osteoarthritis (Grade 3 chondral defects) and active synovitis",
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "Lateral Meniscus: Diminutive size consistent with prior partial meniscectomy. Grade 3 Chondromalacia (fissuring/fibrillation >50% depth) involving the lateral femoral condyle. Moderate joint effusion. Synovitis present",
+              "note_id": "MT_DOC1_S7"
+            }
+          ]
+        },
+        {
+          "img_id": "MT_IM002",
+          "date": "2026-02-26",
+          "modality": "X-Ray",
+          "body_part": "Bilateral Knees (Standing AP/Lateral)",
+          "side": "Left",
+          "key_positives": [
+            "Mild to moderate narrowing of lateral joint space (left knee)",
+            "Small osteophytes at tibial plateau (left knee)"
+          ],
+          "key_negatives": [
+            "Right knee normal joint spaces"
+          ],
+          "red_flags": [
+            "Joint space narrowing (osteoarthritis)",
+            "Osteophyte formation (bone spurs)"
+          ],
+          "impression": "Mild to moderate osteoarthritis left knee lateral compartment",
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "Left Knee: Mild to moderate narrowing of the lateral joint space compared to the right. Small osteophytes (bone spurs) noted at the tibial plateau",
+              "note_id": "MT_DOC1_S8"
+            }
+          ]
+        }
+      ],
+      "missed_time_summary": {
+        "practice_missed": "Spring practice 2025 (swelling)",
+        "games_missed": "4 games in 2023",
+        "ir_pup_nfi": null,
+        "no_missed_time_claims": [],
+        "evidence": [
+          {
+            "doc_name": "Marcus Thorne.md",
+            "snippet": "2023: Missed 4 games (Left Knee surgery). 2025: Missed spring practice (Left Knee swelling)",
+            "note_id": "MT_DOC1_S9"
+          }
+        ]
+      },
+      "concussions_neuro": {
+        "concussion_count": 0,
+        "events": [],
+        "neuro_assessments": [],
+        "evidence": [
+          {
+            "doc_name": "Marcus Thorne.md",
+            "snippet": "Concussions: None reported",
+            "note_id": "MT_DOC1_S10"
+          }
+        ]
+      },
+      "cardiovascular": {
+        "ekg": "LVH criteria met (likely due to body habitus/HTN). Echo recommended",
+        "echo_ef": "Recommended but not yet performed",
+        "stress_test": null,
+        "bp_hr": "BP 134/88 (on meds), HR 72",
+        "restrictions": null,
+        "evidence": [
+          {
+            "doc_name": "Marcus Thorne.md",
+            "snippet": "Vitals: BP 134/88 (on meds), HR 72. EKG: LVH criteria met (likely due to body habitus/HTN). Echo recommended",
+            "note_id": "MT_DOC1_S11"
+          }
+        ]
+      },
+      "current_capacity": {
+        "rom": [
+          {
+            "joint": "Left Knee",
+            "measurement": "0-125 degrees (lacks 10 degrees flexion compared to right)",
+            "deficit": "10 degrees flexion deficit",
+            "evidence": [
+              {
+                "doc_name": "Marcus Thorne.md",
+                "snippet": "Range of Motion 0-125 (lacks 10 degrees flexion compared to right)",
+                "note_id": "MT_DOC1_S12"
+              }
+            ]
+          }
+        ],
+        "ligament_stability": [],
+        "strength_tests": [],
+        "pain_indicators": [
+          {
+            "location": "Left knee",
+            "severity": "Stiffness after games/flights, needs 30 mins to warm up, mild effusion, joint line tenderness, crepitus",
+            "evidence": [
+              {
+                "doc_name": "Marcus Thorne.md",
+                "snippet": "Reports 'stiffness' after games and on flights. Needs 30 mins to 'warm up' the knee. Mild effusion (fluid) present. Joint line tenderness on lateral side. Crepitus (grinding sensation) palpable",
+                "note_id": "MT_DOC1_S13"
+              }
+            ]
+          }
+        ],
+        "evidence": []
+      },
+      "durability_markers": [
+        {
+          "marker": "Accelerated degeneration - Grade 3 chondromalacia post-meniscectomy",
+          "supporting_detail": "40% lateral meniscus removed, Grade 3 cartilage damage, joint space narrowing, osteophytes",
+          "severity": "High (chronic degradation risk)",
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "The history of partial meniscectomy combined with Grade 3 chondromalacia indicates a high probability of arthritic decline within 3-4 years",
+              "note_id": "MT_DOC1_S14"
+            }
+          ]
+        },
+        {
+          "marker": "Active synovitis and chronic effusion",
+          "supporting_detail": "Moderate joint effusion, synovitis, stiffness requiring warm-up",
+          "severity": "Moderate",
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "Moderate joint effusion. Synovitis present. Reports 'stiffness' after games and on flights. Needs 30 mins to 'warm up' the knee",
+              "note_id": "MT_DOC1_S15"
+            }
+          ]
+        }
+      ],
+      "clearance_status": {
+        "status": "Low acute injury risk, High chronic degradation risk (2nd contract risk)",
+        "restrictions": [
+          "Monitor knee symptoms and function",
+          "Manage effusion and inflammation"
+        ],
+        "follow_up": "Ongoing monitoring, high probability of arthritic decline within 3-4 years",
+        "evidence": [
+          {
+            "doc_name": "Marcus Thorne.md",
+            "snippet": "Risk Profile: Low acute injury risk, High chronic degradation risk",
+            "note_id": "MT_DOC1_S16"
+          }
+        ]
+      },
+      "medical_conditions": [
+        {
+          "condition": "Hypertension",
+          "diagnosis_date": "2024",
+          "management": "Controlled on Lisinopril 10mg (BP 134/88)",
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "Hypertension: Diagnosed 2024. Controlled on Lisinopril 10mg. BP 134/88 (on meds)",
+              "note_id": "MT_DOC1_S17"
+            }
+          ]
+        },
+        {
+          "condition": "Sleep Apnea",
+          "diagnosis_date": null,
+          "management": "Uses CPAP nightly, good compliance",
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "Sleep Apnea: Uses CPAP nightly. Reports good compliance. Neck circumference 19.5 inches",
+              "note_id": "MT_DOC1_S18"
+            }
+          ]
+        }
+      ],
+      "labs": [
+        {
+          "test": "Glucose",
+          "result": "105 mg/dL",
+          "flag": "High Normal",
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "Glucose: 105 mg/dL (High Normal)",
+              "note_id": "MT_DOC1_S19"
+            }
+          ]
+        },
+        {
+          "test": "A1c",
+          "result": "5.6%",
+          "flag": "Normal",
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "A1c: 5.6%",
+              "note_id": "MT_DOC1_S20"
+            }
+          ]
+        },
+        {
+          "test": "Creatinine",
+          "result": "1.1",
+          "flag": "Normal",
+          "evidence": [
+            {
+              "doc_name": "Marcus Thorne.md",
+              "snippet": "Creatinine: 1.1 (Normal)",
+              "note_id": "MT_DOC1_S21"
+            }
+          ]
+        }
+      ],
+      "tier_summary": {
+        "tier1_core_decision_factors": [
+          "Partial lateral meniscectomy (2023, ~40% removed)",
+          "Grade 3 chondromalacia lateral femoral condyle",
+          "Premature osteoarthritis with joint space narrowing and osteophytes",
+          "High probability of arthritic decline within 3-4 years"
+        ],
+        "tier2_predictive_analytics": [
+          "Position-specific vulnerability: DL requires explosive movements on knees",
+          "Imaging chronicity: Grade 3 cartilage damage, synovitis, effusion, bone spurs",
+          "Recovery trajectory: Chronic stiffness, requires warm-up, recurrent swelling",
+          "Family history: Father with Type 2 Diabetes and early OA"
+        ],
+        "tier3_supporting_data": [
+          "Hypertension (controlled on Lisinopril)",
+          "Sleep apnea (CPAP compliant)",
+          "BMI 40.2",
+          "LVH on EKG (echo recommended)",
+          "AC joint sprain 2022 (healed)",
+          "Pes planus (flat feet) with custom orthotics"
+        ]
+      }
+    },
+    {
+      "player": {
+        "name": "Tyrell Biggs",
+        "position": "Edge Rusher",
+        "team": null,
+        "college": null,
+        "draft_year": null,
+        "dob": "2004-09-10",
+        "height": "6'5\"",
+        "weight": "265 lbs",
+        "handedness": null,
+        "other_identifiers": [
+          {
+            "type": "Player ID",
+            "value": "99011234"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Tyrell Biggs.md",
+            "snippet": "Position: Edge Rusher, ID: 99011234, DOB: 09/10/2004",
+            "note_id": "TB_DOC1_S1"
+          },
+          {
+            "doc_name": "Tyrell Biggs.md",
+            "snippet": "Height/Weight: 6'5\", 265 lbs.",
+            "note_id": "TB_DOC1_S2"
+          }
+        ]
+      },
+      "injury_events": [
+        {
+          "event_id": "TB_IE001",
+          "body_part": "Head",
+          "joint": null,
+          "side": null,
+          "injury_type": "Concussion",
+          "date": "2025",
+          "season": "2025",
+          "severity": "Moderate",
+          "mechanism": null,
+          "treatment": [],
+          "recovery_time": null,
+          "return_to_play": "Cleared after protocol",
+          "missed_practice_time": null,
+          "missed_games": "1 game (2025)",
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": [],
+          "exam_findings_refs": [],
+          "evidence": [
+            {
+              "doc_name": "Tyrell Biggs.md",
+              "snippet": "2025: Missed 1 game (Concussion)",
+              "note_id": "TB_DOC1_S3"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "event_id": "TB_IE002",
+          "body_part": "Shoulders",
+          "joint": "AC Joint",
+          "side": "Bilateral",
+          "injury_type": "AC joint sprains",
+          "date": "2023",
+          "season": "2023",
+          "severity": "Mild (treated conservatively)",
+          "mechanism": null,
+          "treatment": [
+            "Conservative treatment"
+          ],
+          "recovery_time": null,
+          "return_to_play": "Full ROM",
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": [],
+          "exam_findings_refs": [],
+          "evidence": [
+            {
+              "doc_name": "Tyrell Biggs.md",
+              "snippet": "Shoulders: Bilateral AC joint sprains in 2023. Treated conservatively. Full ROM",
+              "note_id": "TB_DOC1_S4"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "surgeries_procedures": [],
+      "imaging_findings": [
+        {
+          "img_id": "TB_IM001",
+          "date": "2026-02-26",
+          "modality": "EKG",
+          "body_part": "Heart",
+          "side": null,
+          "key_positives": [
+            "Deep Q-Waves in leads II, III, aVF (Inferior leads)",
+            "Significant Left Ventricular Hypertrophy (LVH) with strain pattern",
+            "T-wave inversion in V4-V6"
+          ],
+          "key_negatives": [
+            "Sinus Rhythm"
+          ],
+          "red_flags": [
+            "Deep Q-waves (pathologic)",
+            "LVH with strain pattern",
+            "T-wave inversions",
+            "Findings suggestive of Hypertrophic Cardiomyopathy"
+          ],
+          "impression": "Abnormal EKG with findings concerning for Hypertrophic Cardiomyopathy",
+          "evidence": [
+            {
+              "doc_name": "Tyrell Biggs.md",
+              "snippet": "Sinus Rhythm. Deep Q-Waves in leads II, III, aVF (Inferior leads). Significant Left Ventricular Hypertrophy (LVH) with strain pattern. T-wave inversion in V4-V6",
+              "note_id": "TB_DOC1_S5"
+            }
+          ]
+        },
+        {
+          "img_id": "TB_IM002",
+          "date": "2026-02-26",
+          "modality": "Echocardiogram",
+          "body_part": "Heart",
+          "side": null,
+          "key_positives": [
+            "Asymmetric Septal Hypertrophy",
+            "Interventricular Septum (IVS) 17mm (Normal <12mm)",
+            "Posterior wall 11mm",
+            "Ejection Fraction 65% (Hyperdynamic)",
+            "Resting LVOT gradient 20 mmHg",
+            "Provocable gradient (Valsalva) 45 mmHg (Obstruction)",
+            "Systolic Anterior Motion (SAM) of mitral valve"
+          ],
+          "key_negatives": [],
+          "red_flags": [
+            "Septal thickness 17mm (outside normal athletic adaptation)",
+            "Dynamic LVOT obstruction",
+            "SAM of mitral valve",
+            "Findings consistent with Hypertrophic Obstructive Cardiomyopathy (HOCM)",
+            "Critical/Life-Threatening risk",
+            "High probability of medical disqualification"
+          ],
+          "impression": "Hypertrophic Obstructive Cardiomyopathy (HOCM) with significant septal hypertrophy and dynamic LVOT obstruction",
+          "evidence": [
+            {
+              "doc_name": "Tyrell Biggs.md",
+              "snippet": "Asymmetric Septal Hypertrophy. Interventricular Septum (IVS) measures 17 mm at end-diastole (Normal <12mm; 'Athlete's Heart' gray zone is 13-15mm). Resting LVOT gradient is 20 mmHg. Provocable gradient (Valsalva) rises to 45 mmHg (Obstruction present). Systolic Anterior Motion (SAM) of the mitral valve leaflet noted",
+              "note_id": "TB_DOC1_S6"
+            },
+            {
+              "doc_name": "Tyrell Biggs.md",
+              "snippet": "Findings consistent with Hypertrophic Obstructive Cardiomyopathy (HOCM). Significant septal wall thickness (17mm) outside the range of normal physiologic athletic adaptation. Dynamic Left Ventricular Outflow Tract (LVOT) obstruction",
+              "note_id": "TB_DOC1_S7"
+            }
+          ]
+        }
+      ],
+      "missed_time_summary": {
+        "practice_missed": null,
+        "games_missed": "1 game in 2025 (Concussion)",
+        "ir_pup_nfi": null,
+        "no_missed_time_claims": [],
+        "evidence": [
+          {
+            "doc_name": "Tyrell Biggs.md",
+            "snippet": "2025: Missed 1 game (Concussion)",
+            "note_id": "TB_DOC1_S8"
+          }
+        ]
+      },
+      "concussions_neuro": {
+        "concussion_count": 1,
+        "events": [
+          {
+            "date": "2025",
+            "severity": "Moderate",
+            "symptom_duration": null,
+            "time_to_clear": null,
+            "recurrence": false,
+            "evidence": [
+              {
+                "doc_name": "Tyrell Biggs.md",
+                "snippet": "2025: Missed 1 game (Concussion)",
+                "note_id": "TB_DOC1_S9"
+              }
+            ]
+          }
+        ],
+        "neuro_assessments": [],
+        "evidence": []
+      },
+      "cardiovascular": {
+        "ekg": "Deep Q-waves, LVH with strain, T-wave inversions (concerning for HCM)",
+        "echo_ef": "65% (Hyperdynamic)",
+        "stress_test": null,
+        "bp_hr": "BP 110/65, HR 60",
+        "restrictions": "Critical/Life-Threatening - High probability of medical disqualification",
+        "evidence": [
+          {
+            "doc_name": "Tyrell Biggs.md",
+            "snippet": "Vitals: BP 110/65, HR 60. EKG: Deep Q-Waves, LVH with strain, T-wave inversions. Echo: EF 65%, IVS 17mm, LVOT obstruction",
+            "note_id": "TB_DOC1_S10"
+          }
+        ]
+      },
+      "current_capacity": {
+        "rom": [
+          {
+            "joint": "Shoulders",
+            "measurement": "Full ROM bilaterally",
+            "deficit": "None",
+            "evidence": [
+              {
+                "doc_name": "Tyrell Biggs.md",
+                "snippet": "Shoulders: Full ROM",
+                "note_id": "TB_DOC1_S11"
+              }
+            ]
+          }
+        ],
+        "ligament_stability": [],
+        "strength_tests": [],
+        "pain_indicators": [],
+        "evidence": []
+      },
+      "durability_markers": [
+        {
+          "marker": "Hypertrophic Obstructive Cardiomyopathy (HOCM) - Critical/Life-Threatening",
+          "supporting_detail": "Septal thickness 17mm, dynamic LVOT obstruction, SAM, family history of sudden cardiac death",
+          "severity": "Critical",
+          "evidence": [
+            {
+              "doc_name": "Tyrell Biggs.md",
+              "snippet": "This is not 'Athlete's Heart.' The player exhibits signs of Hypertrophic Cardiomyopathy (HCM). The key differentiators are the septal thickness (>15mm) and the specific behavior of the murmur (louder with Valsalva). Risk Profile: Critical/Life-Threatening. High probability of medical disqualification",
+              "note_id": "TB_DOC1_S12"
+            }
+          ]
+        },
+        {
+          "marker": "Family history of sudden cardiac death",
+          "supporting_detail": "Uncle died suddenly at age 35 ('Heart Attack')",
+          "severity": "Critical",
+          "evidence": [
+            {
+              "doc_name": "Tyrell Biggs.md",
+              "snippet": "Family History: Uncle died suddenly at age 35 ('Heart Attack')",
+              "note_id": "TB_DOC1_S13"
+            }
+          ]
+        },
+        {
+          "marker": "Exertional symptoms (lightheadedness, windedness)",
+          "supporting_detail": "Occasional lightheadedness upon standing, needs extra recovery time after long drives",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Tyrell Biggs.md",
+              "snippet": "Reports occasional 'lightheadedness' upon standing up quickly. Denies syncope (passing out) during games, but admits to needing extra recovery time after long drives due to 'windedness'",
+              "note_id": "TB_DOC1_S14"
+            }
+          ]
+        }
+      ],
+      "clearance_status": {
+        "status": "Critical/Life-Threatening - High probability of medical disqualification",
+        "restrictions": [
+          "Likely disqualified from contact sports",
+          "Risk of sudden cardiac death",
+          "Requires cardiology clearance (unlikely to be granted)"
+        ],
+        "follow_up": "Cardiology consultation, genetic testing, family screening, likely medical disqualification",
+        "evidence": [
+          {
+            "doc_name": "Tyrell Biggs.md",
+            "snippet": "Risk Profile: Critical/Life-Threatening. High probability of medical disqualification by team doctors",
+            "note_id": "TB_DOC1_S15"
+          }
+        ]
+      },
+      "medical_conditions": [
+        {
+          "condition": "Hypertrophic Obstructive Cardiomyopathy (HOCM)",
+          "diagnosis_date": "2026-02-26",
+          "management": "Newly diagnosed, requires cardiology consultation",
+          "evidence": [
+            {
+              "doc_name": "Tyrell Biggs.md",
+              "snippet": "Findings consistent with Hypertrophic Obstructive Cardiomyopathy (HOCM)",
+              "note_id": "TB_DOC1_S16"
+            }
+          ]
+        }
+      ],
+      "tier_summary": {
+        "tier1_core_decision_factors": [
+          "Hypertrophic Obstructive Cardiomyopathy (HOCM)",
+          "Septal thickness 17mm (pathologic)",
+          "Dynamic LVOT obstruction (45 mmHg with Valsalva)",
+          "Family history of sudden cardiac death (uncle age 35)",
+          "Critical/Life-Threatening risk - likely medical disqualification"
+        ],
+        "tier2_predictive_analytics": [
+          "Exertional symptoms: lightheadedness, windedness",
+          "Pathologic murmur (louder with Valsalva)",
+          "EKG red flags: Deep Q-waves, LVH with strain, T-wave inversions",
+          "Echo red flags: SAM, asymmetric septal hypertrophy"
+        ],
+        "tier3_supporting_data": [
+          "One concussion (2025)",
+          "Bilateral AC joint sprains 2023 (healed)",
+          "Knees clean",
+          "Spine clean",
+          "No medications"
+        ]
+      }
+    },
+    {
+      "player": {
+        "name": "Xavier Malone",
+        "position": "Cornerback",
+        "team": null,
+        "college": null,
+        "draft_year": null,
+        "dob": "2003-11-04",
+        "height": "6'1\"",
+        "weight": "205 lbs",
+        "handedness": null,
+        "other_identifiers": [
+          {
+            "type": "Player ID",
+            "value": "22910447"
+          }
+        ],
+        "evidence": [
+          {
+            "doc_name": "Xavier Malone.md",
+            "snippet": "Position: Cornerback, ID: 22910447, DOB: 11/04/2003",
+            "note_id": "XM_DOC1_S1"
+          },
+          {
+            "doc_name": "Xavier Malone.md",
+            "snippet": "Height/Weight: 6'1\", 205 lbs.",
+            "note_id": "XM_DOC1_S2"
+          }
+        ]
+      },
+      "injury_events": [
+        {
+          "event_id": "XM_IE001",
+          "body_part": "Right Hip/Groin",
+          "joint": "Hip",
+          "side": "Right",
+          "injury_type": "Femoroacetabular Impingement (FAI) with Cam lesion, labral tear, chondral delamination",
+          "date": "Recurrent (2024, 2025)",
+          "season": "2024, 2025",
+          "severity": "Moderate to Severe (requires surgery)",
+          "mechanism": "Bony impingement causing labral tear and secondary soft tissue strain",
+          "treatment": [],
+          "recovery_time": null,
+          "return_to_play": "Playing with symptoms",
+          "missed_practice_time": null,
+          "missed_games": "5 games total (2 in 2024, 3 in 2025)",
+          "recurrence": {
+            "is_recurrence": true,
+            "count_estimate": 2,
+            "same_area_prior": "Recurrent 'groin strains' (misdiagnosed)"
+          },
+          "imaging_refs": ["XM_IM001", "XM_IM002"],
+          "exam_findings_refs": ["XM_EX001"],
+          "evidence": [
+            {
+              "doc_name": "Xavier Malone.md",
+              "snippet": "Chronic deep ache in the groin after heavy squatting or cutting. Diagnosed repeatedly as adductor strains",
+              "note_id": "XM_DOC1_S3"
+            },
+            {
+              "doc_name": "Xavier Malone.md",
+              "snippet": "2024: Missed 2 games ('Groin Strain'). 2025: Missed 3 games ('Hip Flexor Strain')",
+              "note_id": "XM_DOC1_S4"
+            }
+          ],
+          "conflict": false
+        },
+        {
+          "event_id": "XM_IE002",
+          "body_part": "Left Shoulder",
+          "joint": "AC Joint",
+          "side": "Left",
+          "injury_type": "AC joint separation (Grade 1)",
+          "date": "2023",
+          "season": "2023",
+          "severity": "Mild (Grade 1)",
+          "mechanism": null,
+          "treatment": [],
+          "recovery_time": null,
+          "return_to_play": "Painless full ROM",
+          "missed_practice_time": null,
+          "missed_games": null,
+          "recurrence": {
+            "is_recurrence": false,
+            "count_estimate": 0,
+            "same_area_prior": null
+          },
+          "imaging_refs": [],
+          "exam_findings_refs": [],
+          "evidence": [
+            {
+              "doc_name": "Xavier Malone.md",
+              "snippet": "Shoulders: Left AC joint separation (Grade 1) in 2023. Exam: Painless full ROM",
+              "note_id": "XM_DOC1_S5"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "surgeries_procedures": [
+        {
+          "proc_id": "XM_SP001",
+          "date": null,
+          "procedure_name": "Hip arthroscopy (recommended)",
+          "body_part": "Right Hip",
+          "side": "Right",
+          "reason": "FAI with Cam lesion, labral tear, chondral delamination",
+          "hardware_present": "Unknown (surgery not yet performed)",
+          "outcome": "Pending - likely required within 12-18 months",
+          "complications": null,
+          "evidence": [
+            {
+              "doc_name": "Xavier Malone.md",
+              "snippet": "Likely requires hip arthroscopy (surgery) within 12-18 months to fix the bone impingement, otherwise soft tissue injuries will persist",
+              "note_id": "XM_DOC1_S6"
+            }
+          ],
+          "conflict": false
+        }
+      ],
+      "imaging_findings": [
+        {
+          "img_id": "XM_IM001",
+          "date": "2026-02-27",
+          "modality": "X-Ray",
+          "body_part": "Pelvis (AP and Frog-Leg Lateral)",
+          "side": "Right",
+          "key_positives": [
+            "'Pistol Grip' deformity of proximal femur",
+            "Loss of femoral head-neck offset",
+            "Alpha Angle 68 degrees (Normal <55) - Cam-type impingement"
+          ],
+          "key_negatives": [
+            "Joint space preserved",
+            "No arthritis"
+          ],
+          "red_flags": [
+            "Significant Cam-type impingement (Alpha Angle 68 degrees)",
+            "Pistol Grip deformity (structural abnormality)"
+          ],
+          "impression": "Cam-type Femoroacetabular Impingement with Pistol Grip deformity",
+          "evidence": [
+            {
+              "doc_name": "Xavier Malone.md",
+              "snippet": "'Pistol Grip' deformity of the proximal femur. Loss of femoral head-neck offset. Alpha Angle: Measured at 68 degrees (Normal is <55), indicating significant Cam-type impingement",
+              "note_id": "XM_DOC1_S7"
+            }
+          ]
+        },
+        {
+          "img_id": "XM_IM002",
+          "date": "2026-02-27",
+          "modality": "MRI Arthrography",
+          "body_part": "Right Hip",
+          "side": "Right",
+          "key_positives": [
+            "Anterosuperior labral tear (12-2 o'clock position)",
+            "Perilabral cyst",
+            "Small chondral delamination (chondral flap) at chondrolabral junction",
+            "Large Cam lesion on femoral neck",
+            "Mild edema in adductor longus origin (secondary strain)"
+          ],
+          "key_negatives": [],
+          "red_flags": [
+            "Labral tear with perilabral cyst",
+            "Grade 2 chondral delamination (cartilage damage)",
+            "Large Cam lesion (bony impingement)",
+            "Secondary adductor tendinosis (soft tissue compensation)"
+          ],
+          "impression": "FAI with large Cam lesion, anterosuperior labral tear, focal chondral delamination, reactive adductor tendinosis",
+          "evidence": [
+            {
+              "doc_name": "Xavier Malone.md",
+              "snippet": "Anterosuperior labral tear (approx 12 o'clock to 2 o'clock position) with localized perilabral cyst. Small area of delamination (chondral flap) at the chondrolabral junction. Large Cam lesion on the femoral neck. Mild edema in the adductor longus origin (secondary strain)",
+              "note_id": "XM_DOC1_S8"
+            }
+          ]
+        }
+      ],
+      "missed_time_summary": {
+        "practice_missed": null,
+        "games_missed": "5 games total (2 in 2024, 3 in 2025)",
+        "ir_pup_nfi": null,
+        "no_missed_time_claims": [],
+        "evidence": [
+          {
+            "doc_name": "Xavier Malone.md",
+            "snippet": "2024: Missed 2 games ('Groin Strain'). 2025: Missed 3 games ('Hip Flexor Strain')",
+            "note_id": "XM_DOC1_S9"
+          }
+        ]
+      },
+      "concussions_neuro": {
+        "concussion_count": 0,
+        "events": [],
+        "neuro_assessments": [],
+        "evidence": []
+      },
+      "cardiovascular": {
+        "ekg": null,
+        "echo_ef": null,
+        "stress_test": null,
+        "bp_hr": "BP 122/70, HR 55",
+        "restrictions": null,
+        "evidence": [
+          {
+            "doc_name": "Xavier Malone.md",
+            "snippet": "Vitals: BP 122/70, HR 55",
+            "note_id": "XM_DOC1_S10"
+          }
+        ]
+      },
+      "current_capacity": {
+        "rom": [
+          {
+            "joint": "Right Hip",
+            "measurement": "Internal Rotation limited to 10 degrees (stiff) vs 35 degrees left",
+            "deficit": "25 degrees internal rotation deficit",
+            "evidence": [
+              {
+                "doc_name": "Xavier Malone.md",
+                "snippet": "Range of Motion: Internal Rotation limited to 10 degrees (stiff) compared to 35 degrees on the left",
+                "note_id": "XM_DOC1_S11"
+              }
+            ]
+          }
+        ],
+        "ligament_stability": [
+          {
+            "test": "FADIR Test",
+            "result": "Strongly Positive (reproduces deep groin pain)",
+            "evidence": [
+              {
+                "doc_name": "Xavier Malone.md",
+                "snippet": "FADIR Test: Strongly Positive (Flexion, Adduction, Internal Rotation reproduces deep groin pain)",
+                "note_id": "XM_DOC1_S12"
+              }
+            ]
+          },
+          {
+            "test": "FABER Test",
+            "result": "Positive (posterior hip pain)",
+            "evidence": [
+              {
+                "doc_name": "Xavier Malone.md",
+                "snippet": "FABER Test: Positive (posterior hip pain)",
+                "note_id": "XM_DOC1_S13"
+              }
+            ]
+          }
+        ],
+        "strength_tests": [
+          {
+            "test": "Adductor strength",
+            "result": "4/5 (pain inhibition)",
+            "evidence": [
+              {
+                "doc_name": "Xavier Malone.md",
+                "snippet": "Strength: Adductor strength 4/5 (pain inhibition)",
+                "note_id": "XM_DOC1_S14"
+              }
+            ]
+          }
+        ],
+        "pain_indicators": [
+          {
+            "location": "Right groin/hip",
+            "severity": "Chronic deep ache after squatting/cutting, tenderness at pubic tubercle",
+            "evidence": [
+              {
+                "doc_name": "Xavier Malone.md",
+                "snippet": "Chronic deep ache in the groin after heavy squatting or cutting. Tenderness at the pubic tubercle",
+                "note_id": "XM_DOC1_S15"
+              }
+            ]
+          }
+        ],
+        "evidence": []
+      },
+      "durability_markers": [
+        {
+          "marker": "FAI with Cam lesion causing recurrent soft tissue injuries",
+          "supporting_detail": "Bony overgrowth shredding labrum, causing secondary adductor pain (misdiagnosed as groin strains)",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Xavier Malone.md",
+              "snippet": "The player's recurrent 'groin strains' are a misdiagnosis. The root cause is Femoroacetabular Impingement (FAI)---specifically a Cam lesion. The bony overgrowth is shredding the labrum and destabilizing the pelvis, causing secondary adductor pain",
+              "note_id": "XM_DOC1_S16"
+            }
+          ]
+        },
+        {
+          "marker": "Labral tear with chondral delamination",
+          "supporting_detail": "Anterosuperior labral tear, perilabral cyst, Grade 2 chondral flap",
+          "severity": "High",
+          "evidence": [
+            {
+              "doc_name": "Xavier Malone.md",
+              "snippet": "Anterosuperior labral tear with localized perilabral cyst. Small area of delamination (chondral flap) at the chondrolabral junction",
+              "note_id": "XM_DOC1_S17"
+            }
+          ]
+        }
+      ],
+      "clearance_status": {
+        "status": "High surgical risk - likely requires hip arthroscopy within 12-18 months",
+        "restrictions": [
+          "Recurrent soft tissue injuries will persist without surgical correction of FAI"
+        ],
+        "follow_up": "Hip arthroscopy consultation for Cam lesion resection and labral repair",
+        "evidence": [
+          {
+            "doc_name": "Xavier Malone.md",
+            "snippet": "Likely requires hip arthroscopy (surgery) within 12-18 months to fix the bone impingement, otherwise soft tissue injuries will persist",
+            "note_id": "XM_DOC1_S18"
+          }
+        ]
+      },
+      "medical_conditions": [],
+      "tier_summary": {
+        "tier1_core_decision_factors": [
+          "Femoroacetabular Impingement (FAI) with Cam lesion (Alpha Angle 68 degrees)",
+          "Anterosuperior labral tear with perilabral cyst",
+          "Grade 2 chondral delamination",
+          "Recurrent 'groin strains' (misdiagnosed) - secondary to FAI",
+          "Likely requires hip arthroscopy within 12-18 months"
+        ],
+        "tier2_predictive_analytics": [
+          "Position-specific vulnerability: CB requires explosive cutting/pivoting",
+          "Injury pattern: Recurrent soft tissue injuries driven by structural hip pathology",
+          "Imaging chronicity: Labral tear, chondral damage, adductor tendinosis",
+          "Family history: Brother retired due to hip issues"
+        ],
+        "tier3_supporting_data": [
+          "Left AC joint separation Grade 1 (2023, healed)",
+          "No true hernia on exam",
+          "'Sports Hernia' evaluation 2024 negative",
+          "Occasional alcohol, non-smoker"
+        ]
+      }
+    }
+  ]
+}

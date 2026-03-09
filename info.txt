@@ -1,0 +1,105 @@
+
+---
+
+## CONFLICTS & RED FLAGS
+
+### CALEB STONE (Center, ID: 66200199)
+- **Scaphoid Non-Union with SNAC Arthritis Precursor** (CS_DOC1_S8, CS_DOC1_S9): Sclerotic margins, cystic changes, early degenerative arthritis - low likelihood of spontaneous healing
+- **"No Missed Time" Contradiction** (CS_DOC1_S10): Claimed no games missed 2024/2025, but played with hard cast club (2024) and heavy tape (2025) - indicates playing through significant injury
+- **27% Grip Strength Deficit in Dominant/Snapping Hand** (CS_DOC1_S15): Critical for Center position
+- **Surgical Requirement** (CS_DOC1_S7): Requires 4-6 month recovery for bone graft surgery
+- **Type 1 Diabetes** (CS_DOC1_S20): Well controlled but adds complexity to surgical recovery
+
+### DARIUS STERLING (Wide Receiver, ID: 88421009)
+- **Recurrent Hamstring Strains - Escalating Severity** (DS_DOC1_S3, DS_DOC1_S16): Grade 1 (2024) → Grade 2 (2025), same location, chronic scarring with sciatic nerve tethering
+- **Kinetic Chain Disruption** (DS_DOC1_S17): L5 pars defects with Grade 1 spondylolisthesis driving distal hamstring injuries
+- **Sciatic Nerve Tethering** (DS_DOC1_S6): Mild tethering at scar tissue - may contribute to recurrence
+- **Disc Desiccation L5-S1** (DS_DOC1_S7): Early degenerative changes
+- **High Short-Term Recurrence Risk** (DS_DOC1_S18): Without core stability intervention
+
+### DEON FRY (Running Back, ID: 22005581)
+- **Unstable Osteochondral Defect - Positive Rim Sign** (DF_DOC1_S7, DF_DOC1_S13): Fluid undermining fragment - imminent detachment risk, could lock joint at any moment
+- **Mechanical Locking Episodes** (DF_DOC1_S12, DF_DOC1_S14): Intermittent catching, clicking, morning lock-up
+- **Cartilage Surface Breach** (DF_DOC1_S7): High-grade instability
+- **Bone Marrow Edema** (DF_DOC1_S7): Significant surrounding edema in talus
+- **Requires Surgery** (DF_DOC1_S6, DF_DOC1_S15): Fixation or cartilage transfer to prevent catastrophic locking
+
+### ELIJAH BANKS (Linebacker, ID: 55001928)
+- **Congenital Cervical Stenosis - Torg Ratio <0.8** (EB_DOC1_S6, EB_DOC1_S7): Catastrophic injury risk
+- **Effaced CSF Buffer** (EB_DOC1_S6): No protective cushion around spinal cord
+- **Cord Flattening** (EB_DOC1_S6): Chronic compression
+- **Risk of Transient Quadriparesis** (EB_DOC1_S18): Axial load could cause temporary paralysis or career-ending injury
+- **Recurrent Stingers** (~3 per season) (EB_DOC1_S3, EB_DOC1_S4): Ongoing nerve root compression events
+- **Recurrent Concussions** (EB_DOC1_S9, EB_DOC1_S10): 2 documented (2022, 2024), last required 14-day protocol
+- **Foraminal Stenosis C5-6** (EB_DOC1_S6): Correlates with stinger symptoms
+
+### JACKSON GRAVES (Offensive Tackle, ID: 77100293)
+- **Jones Fracture Prodrome - Zone 2 Stress Reaction** (JG_DOC1_S8, JG_DOC1_S9): Cortical thickening, Grade 2 bone marrow edema, intracortical signal abnormality
+- **Pes Cavus Varus Deformity** (JG_DOC1_S8, JG_DOC1_S16): Structural predisposition - walks on outside of feet, excessive lateral load
+- **Extremely High Risk for Jones Fracture** (JG_DOC1_S7, JG_DOC1_S15): Non-union prone, requires surgical fixation or orthotics
+- **345 lbs at NFL Speed** (JG_DOC1_S2): Massive load on feet
+- **Gout History** (JG_DOC1_S18): One flare-up 2024, currently controlled
+
+### LUCAS VANCE (Quarterback, ID: 12100558)
+- **GIRD (Glenohumeral Internal Rotation Deficit)** (LV_DOC1_S11, LV_DOC1_S17): 35 degrees IR (significant deficit), posterior capsular fibrosis post-SLAP repair
+- **Distal Compensation Risk - Elbow Overload** (LV_DOC1_S17): GIRD forcing excessive valgus load on elbow, high risk for UCL (Tommy John) injury
+- **Chronic UCL Remodeling** (LV_DOC1_S8, LV_DOC1_S18): Thickened UCL, 1.5mm laxity, flexor-pronator inflammation
+- **Velocity Drops Late in Practice** (LV_DOC1_S15): Fatigue/compensation pattern
+- **Medium-High Elbow Injury Risk** (LV_DOC1_S19): Despite intact shoulder repair
+
+### MARCUS JEFFERSON (Defensive Tackle, ID: 99881100)
+- **Solitary Kidney with Proteinuria and Hypertension** (MJ_DOC1_S5, MJ_DOC1_S8): Hyperfiltration injury - kidney under stress
+- **Proteinuria 2+ (100 mg/dL)** (MJ_DOC1_S13): Abnormal, indicates kidney damage
+- **Reduced eGFR (68 mL/min)** (MJ_DOC1_S16): Mildly reduced for age
+- **Elevated Creatinine (1.35 mg/dL)** (MJ_DOC1_S15): Borderline high
+- **Uncontrolled Hypertension (148/92, 144/90)** (MJ_DOC1_S7, MJ_DOC1_S12): Not on medication despite diagnosis
+- **Mild Medical Renal Disease** (MJ_DOC1_S5, MJ_DOC1_S9): Increased echogenicity on ultrasound
+- **NFL Career Toxicity** (MJ_DOC1_S8): High protein intake, NSAID use (Toradol), dehydration all toxic to stressed solitary kidney
+- **Long-Term Health/Longevity Risk** (MJ_DOC1_S10): Critical concern
+- **LVH on EKG** (MJ_DOC1_S7): Echo recommended
+
+### MARCUS THORNE (Interior Defensive Line, ID: 99210044)
+- **Grade 3 Chondromalacia Post-Meniscectomy** (MT_DOC1_S6, MT_DOC1_S7): Fissuring >50% depth, lateral femoral condyle
+- **Premature Osteoarthritis** (MT_DOC1_S7, MT_DOC1_S8): Joint space narrowing, osteophytes, active synovitis
+- **High Probability of Arthritic Decline Within 3-4 Years** (MT_DOC1_S14): "2nd Contract Risk"
+- **40% Lateral Meniscus Removed** (MT_DOC1_S6): Accelerated degeneration
+- **Chronic Effusion and Synovitis** (MT_DOC1_S7, MT_DOC1_S15): Moderate effusion, active inflammation
+- **Stiffness Requiring 30-Min Warm-Up** (MT_DOC1_S13, MT_DOC1_S15): Functional limitation
+- **Family History** (MT_DOC1_S2): Father with Type 2 Diabetes and early OA
+- **Sleep Apnea, Hypertension, BMI 40.2** (MT_DOC1_S17, MT_DOC1_S18): Multiple comorbidities
+
+### TYRELL BIGGS (Edge Rusher, ID: 99011234)
+- **HYPERTROPHIC OBSTRUCTIVE CARDIOMYOPATHY (HOCM)** (TB_DOC1_S6, TB_DOC1_S7, TB_DOC1_S12): **CRITICAL/LIFE-THREATENING**
+- **Septal Thickness 17mm** (TB_DOC1_S6, TB_DOC1_S7): Outside normal athletic adaptation (normal <12mm, athlete gray zone 13-15mm)
+- **Dynamic LVOT Obstruction** (TB_DOC1_S6, TB_DOC1_S7): Provocable gradient 45 mmHg with Valsalva
+- **Systolic Anterior Motion (SAM) of Mitral Valve** (TB_DOC1_S6, TB_DOC1_S7): Pathologic finding
+- **Pathologic Murmur** (TB_DOC1_S5, TB_DOC1_S12): Louder with Valsalva (differentiates from athlete's heart)
+- **Deep Q-Waves, LVH with Strain, T-Wave Inversions** (TB_DOC1_S5): EKG red flags
+- **Family History of Sudden Cardiac Death** (TB_DOC1_S13): Uncle died suddenly age 35
+- **Exertional Symptoms** (TB_DOC1_S14): Lightheadedness, windedness, extra recovery time needed
+- **High Probability of Medical Disqualification** (TB_DOC1_S12, TB_DOC1_S15): Likely cannot play contact sports
+
+### XAVIER MALONE (Cornerback, ID: 22910447)
+- **Femoroacetabular Impingement (FAI) with Large Cam Lesion** (XM_IM001, XM_IM002, XM_DOC1_S16): Alpha Angle 68 degrees (normal <55)
+- **Anterosuperior Labral Tear with Perilabral Cyst** (XM_DOC1_S8, XM_DOC1_S17): 12-2 o'clock position
+- **Grade 2 Chondral Delamination** (XM_DOC1_S8, XM_DOC1_S17): Cartilage flap at chondrolabral junction
+- **Recurrent 'Groin Strains' - MISDIAGNOSED** (XM_DOC1_S3, XM_DOC1_S16): Root cause is FAI, not soft tissue
+- **Secondary Adductor Tendinosis** (XM_DOC1_S8): Reactive to hip pathology
+- **25-Degree Internal Rotation Deficit** (XM_DOC1_S11): Severe stiffness
+- **Requires Hip Arthroscopy Within 12-18 Months** (XM_DOC1_S6, XM_DOC1_S18): Otherwise soft tissue injuries will persist
+- **Family History** (XM_DOC1_S2): Brother retired due to hip issues
+- **Pistol Grip Deformity** (XM_DOC1_S7): Structural bony abnormality
+
+---
+
+### SUMMARY OF CRITICAL RED FLAGS ACROSS ALL PLAYERS:
+1. **Life-Threatening Cardiac Condition**: Tyrell Biggs (HOCM) - likely medical disqualification
+2. **Catastrophic Spinal Injury Risk**: Elijah Banks (cervical stenosis, Torg <0.8)
+3. **Imminent Joint Locking Risk**: Deon Fry (unstable OCD with positive rim sign)
+4. **Long-Term Organ Failure Risk**: Marcus Jefferson (solitary kidney with proteinuria/HTN)
+5. **Surgical Requirements**: Caleb Stone (scaphoid), Deon Fry (ankle), Jackson Graves (foot), Lucas Vance (potential elbow), Xavier Malone (hip)
+6. **Degenerative Conditions**: Marcus Thorne (Grade 3 chondromalacia), Caleb Stone (SNAC arthritis), Marcus Jefferson (renal disease)
+7. **Recurrent Injury Patterns**: Darius Sterling (hamstring), Xavier Malone (groin/hip), Elijah Banks (stingers/concussions)
+8. **Kinetic Chain Disruptions**: Darius Sterling (lumbar→hamstring), Lucas Vance (shoulder→elbow), Xavier Malone (hip→groin)
+9. **Structural Deformities**: Jackson Graves (pes cavus), Xavier Malone (Cam lesion), Elijah Banks (cervical stenosis)
+10. **Multiple Concussions**: Elijah Banks (2), Tyrell Biggs (1), Darius Sterling (1), Lucas Vance (1)
